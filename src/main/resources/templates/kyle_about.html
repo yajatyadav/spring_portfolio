@@ -5,26 +5,27 @@
 
 <head><div layout:fragment="metadata" th:remove="tag">
   <!-- Start of head content specific to page -->
-  <title>Greet</title>
+  <title>About Kyle M</title>
   <!-- End of head content specific to page -->
 </div></head>
 
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
+  <p> This is Kyle's About Me page. </p>
+
   <div class="contact" style="height: 35vh;">
     <div class="row justify-content-left" style="margin: 2%;">
-      <form action="/greet" method="GET" id="greetForm">
+      <form action="/kyleabout" method="GET" id="kyleaboutForm">
         <div>
-          <label for="greetField">Type a greeting name?</label>
-          <input name="name" id="greetField">
-          <button>Greetings!</button>
-          <p th:text="'Greetings, ' + ${name} + '!'"></p>
+          <label for="QuestionAnswer">Insert Question</label>
+          <input name="name" id="QuestionAnswer">
+          <button>Submit</button>
+          <p th:text="'Hello, (answer) is ' + ${name} + '!'"></p>
         </div>
       </form>
     </div>
   </div>
   <!-- End of body content specific to page -->
-
 </div></body>
 
 </html>
