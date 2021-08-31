@@ -5,22 +5,20 @@
 
 <head><div layout:fragment="metadata" th:remove="tag">
   <!-- Start of head content specific to page -->
-  <title>About Kyle M</title>
+  <title>About Kyle Myint</title>
   <!-- End of head content specific to page -->
 </div></head>
 
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
-  <p> This is Kyle's About Me page. </p>
-
   <div class="contact" style="height: 35vh;">
     <div class="row justify-content-left" style="margin: 2%;">
       <form action="/kyleabout" method="GET" id="kyleaboutForm">
         <div>
-          <label for="QuestionAnswer">Insert Question</label>
-          <input name="name" id="QuestionAnswer">
+          <label for="Question">What is your favorite number?</label>
+          <input name="name" id="Question">
           <button>Submit</button>
-          <p th:text="'Hello, (answer) is ' + ${name} + '!'"></p>
+          <p th:text="'Your Favorite Number is ' + ${name} + '!'"></p>
         </div>
       </form>
     </div>
