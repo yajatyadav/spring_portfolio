@@ -21,3 +21,4 @@ public class StudentInfo {
         System.out.println(name + " is currently at Del Norte for the 2021-22 school year: " + atDelNorte);
 
     }}
+
