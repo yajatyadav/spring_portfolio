@@ -10,7 +10,7 @@ public class StudentInfo {
 
         final int numClass;
         numClass = 5;
-
+// hi
         boolean atDelNorte;
         atDelNorte = true;
 
