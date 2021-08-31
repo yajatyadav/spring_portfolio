@@ -34,5 +34,9 @@ public class Avg {
         finalAvg = (avg12 + avg34 + grade5) / 3;
         System.out.println("Final Average is " + finalAvg);
 
+        double weightedAvg;
+        weightedAvg = (avg12 * 2 + avg34 * 2 + grade5) / 5;
+        System.out.println("Weighted Average is " + weightedAvg);
+
     }
 }
