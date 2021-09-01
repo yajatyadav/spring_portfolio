@@ -13,12 +13,35 @@
   <!-- Start of body content specific to page -->
   <div class="contact" style="height: 35vh;">
     <div class="row justify-content-left" style="margin: 2%;">
+      <p>Think of a number between 1 and 9 <br> Multiply by 5 <br> Add 8 <br> Multiply by 2 <br> Add another number between 1 and 9 <br> Add 16 </p>
       <form action="/kyleabout" method="GET" id="kyleaboutForm">
         <div>
-          <label for="Question">What is your favorite number?</label>
-          <input name="name" id="Question">
+          <label for="Question">What answer did you get?</label>
+          <input name="name" id="Question" value=" ">
           <button>Submit</button>
-          <p th:text="'Your Favorite Number is ' + ${name} + '!'"></p>
+
+          <script>
+
+            document.write("hi")
+            var element = document.getElementById('Question');
+            var val = element.value;
+            document.write(val);
+            if(val <= 42 || val >= 131){
+              document.write("Impossible!")
+              break
+            }
+            val = val - 32;
+            var second = val % 10;
+            val = val - second
+            var first = val / 10
+            document.write(first);
+            document.write(second);
+            document.write("Your first number was " + String(first) + " and your second number was " + String(second) + "!");
+
+
+          </script>
+
+          <!-- <p th:text="'Your Favorite Number is ' + ${name} + '!'"></p> -->
         </div>
       </form>
     </div>
