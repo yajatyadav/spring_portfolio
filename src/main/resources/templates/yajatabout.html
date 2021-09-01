@@ -11,19 +11,48 @@
 
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
-    <p> Hello, this is Yajat's About Page. A fun fact about me is that my birthday falls on pi day!</p>
+    <p> Hello, this is Yajat's About Me Page. A fun fact about me is that my birthday falls on pi day!</p>
 
+<!--    formula to find weekday used from https://cs.uwaterloo.ca/~alopez-o/math-faq/node73.html-->
+    <script type="text/javascript">
+        function birthday(){
+            var month = parseInt(document.getElementById("month").value);
+            var day = parseInt(document.getElementById("day").value);
+            var year = parseInt(document.getElementById("year").value);
+
+            if(month >= 3){var newmonth = month - 2;}
+            else if(month == 1){var newmonth = 11;}
+            else{var newmonth = 12;}
+
+            var century = Math.trunc(year/100);
+
+            if(month>=3){var newyear = year - (century * 100);}
+            else{var newyear = year - (century * 100) - 1;}
+
+            var sum = (day + Math.floor(2.6*(newmonth) - 0.2) - (2 * century) + newyear + Math.floor(newyear/4) + Math.floor(century/4));
+            if(sum < 0){var weekday = (-sum) % 7;}
+            else{var weekday = sum % 7;}
+
+            var days_of_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            alert("You were born on a " + days_of_week[weekday] + "!");
+        }
+    </script>
     <div class="contact" style="height: 35vh;">
         <div class="row justify-content-left" style="margin: 2%;">
             <form action="/yajatabout" method="GET" id="yajataboutForm">
                 <div>
-                    <label for="FavNumber">What is your favorite number?</label>
-                    <input name="name" id="FavNumber">
-                    <button>Submit</button>
-                    <p th:text="'Hello, Your Favorite Number is ' + ${name} + '!'"></p>
+                    <label>What day were you born on?</label>
+                    <input name="name2" id="month" placeholder="Month">
+                    <input name="name1" id="day" placeholder="Day">
+                    <input name="name3" id="year" placeholder="Year">
+                    <button onclick = "birthday()" id="button1">Submit</button>
+
                 </div>
             </form>
         </div>
+    </div>
+
+
     </div>
     <!-- End of body content specific to page -->
 </div></body>
