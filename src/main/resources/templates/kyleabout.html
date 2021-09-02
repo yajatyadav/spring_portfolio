@@ -4,49 +4,53 @@
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-  <!-- Start of head content specific to page -->
-  <title>About Kyle Myint</title>
-  <!-- End of head content specific to page -->
+    <!-- Start of head content specific to page -->
+    <title>About Kyle M</title>
+    <!-- End of head content specific to page -->
 </div></head>
 
 <body><div layout:fragment="content" th:remove="tag">
-  <!-- Start of body content specific to page -->
-  <div class="contact" style="height: 35vh;">
-    <div class="row justify-content-left" style="margin: 2%;">
-      <p>Think of a number between 1 and 9 <br> Multiply by 5 <br> Add 8 <br> Multiply by 2 <br> Add another number between 1 and 9 <br> Add 16 </p>
-      <form action="/kyleabout" method="GET" id="kyleaboutForm">
-        <div>
-          <label for="Question">What answer did you get?</label>
-          <input name="name" id="Question" value=" ">
-          <button>Submit</button>
+    <!-- Start of body content specific to page -->
+    <p>Hello, this is Kyle's About Me page! </p>
 
-          <script>
+    <p>Think of a number between 1 and 9 <br> Multiply by 5 <br> Add 8 <br> Multiply by 2 <br> Add another number between 1 and 9 <br> Add 16 </p>
 
-            document.write("hi")
-            var element = document.getElementById('Question');
-            var val = element.value;
-            document.write(val);
-            if(val <= 42 || val >= 131){
-              document.write("Impossible!")
-              break
-            }
+    <script type="text/javascript">
+        function numbertrick(){
+
+            alert("hi!");
+
+            var val = parseInt(document.getElementById("Question").value);
+
             val = val - 32;
             var second = val % 10;
-            val = val - second
-            var first = val / 10
-            document.write(first);
-            document.write(second);
-            document.write("Your first number was " + String(first) + " and your second number was " + String(second) + "!");
+            val = val - second;
+            var first = val / 10;
 
+            if(first == second){
+                alert("Your first number was " + String(first) + " and your second number was also " + String(second) + "!");
+            }else {
+                alert("Your first number was " + String(first) + " and your second number was " + String(second) + "!");
+            }
 
-          </script>
+        }
+    </script>
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/kyleabout" method="GET" id="kyleaboutForm">
+                <div>
+                    <label>What answer did you get?</label>
+                    <input name="name2" id="Question" placeholder="Question">
+                    <button onclick = "numbertrick()" id="button1">Submit</button>
 
-          <!-- <p th:text="'Your Favorite Number is ' + ${name} + '!'"></p> -->
+                </div>
+            </form>
         </div>
-      </form>
     </div>
-  </div>
-  <!-- End of body content specific to page -->
+
+
+</div>
+<!-- End of body content specific to page -->
 </div></body>
 
 </html>
