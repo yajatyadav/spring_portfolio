@@ -49,11 +49,11 @@ Name | Link |
 #### Theme/Information:	
 * Login system with Student ID & password
 * Dropdown menu selection + buttons to add items to cart
-###### Schedule for which food on which days
-##### Admin accounts able to change the menu
-##### Purchase history / Balance on an account page
-##### Some cool front page with 3D letter maybe 
-##### Front page with recommendations 
-##### Cart 
-##### Checkout system
-##### Get an order # to pick up food
+* Schedule for which food on which days
+* Admin accounts able to change the menu
+* Purchase history / Balance on an account page
+* Some cool front page with 3D letter maybe 
+* Front page with recommendations 
+* Cart 
+* Checkout system
+* Get an order # to pick up food
