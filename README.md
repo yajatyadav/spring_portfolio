@@ -47,8 +47,8 @@ Name | Link |
 ##### Create shorter wait times
 
 #### Theme/Information:	
-##### Login system with Student ID & password
-##### Dropdown menu selection + buttons to add items to cart
+ Login system with Student ID & password
+ Dropdown menu selection + buttons to add items to cart
 ##### Schedule for which food on which days
 ##### Admin accounts able to change the menu
 ##### Purchase history / Balance on an account page
