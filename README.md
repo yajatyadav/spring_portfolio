@@ -28,5 +28,4 @@ Runtime link: TBD https://jportfolio.nighthawkcodingsociety.com/
 #### * A "pom.xml" file can teach you a lot about Java dependencies.  This is similar to "requirements.txt" file in Python.  It manages packages and dependencies.
 
 # Table of Collaborators 
-#### * Harry Li, Kyle Myint, Devam Shrivastava, Yajat Yadav, Flora Yuan (Scrum Master)
-# Harry was here no he was 
+###  Insert table
