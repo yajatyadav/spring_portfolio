@@ -57,3 +57,24 @@ Name | Link |
 * Cart 
 * Checkout system
 * Get an order # to pick up food
+
+#### website idea
+Website layout:
+--------------------------------------------------------
+contributers          contact info?                     |
+                                                        |
+  -----------------------------------------------       |
+                                                        |
+                 Name          (gradient backgrd?)      |
+  ------------------------------------------------      |
+                          |                             |
+                          |                             |
+                          |              reviews ?      |
+             schedule     |                             |
+                          |                             |     
+------------------------  |						        |
+                                                        |
+                     menu                               |
+--------------------------------------------------------|
+?* = extra unsure about this
+unsure about anything for layout, nobody collaborating :(
