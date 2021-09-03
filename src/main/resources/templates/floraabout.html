@@ -9,21 +9,32 @@
     <!-- End of head content specific to page -->
 </div></head>
 
-<body><div layout:fragment="content" th:remove="tag">
+<body>
+    <div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
-    <div class="contact" style="height: 35vh;">
-        <div class="row justify-content-left" style="margin: 2%;">
-            <form action="/floraabout" method="GET" id="floraaboutForm">
-                <div>
-                    <label for="FavNumber">What is your favorite number?</label>
-                    <input name="name" id="FavNumber">
-                    <button>Submit</button>
-                    <p th:text="'Your Favorite Number is ' + ${name} + '!'"></p>
-                </div>
-            </form>
-        </div>
-    </div>
+        <h1>About Me</h1>
+        <p> Hi, my name is Flora.  A fun fact about myself is that I'm Canadian.</p>
+        <img src="/static/images/flower.jpg" th:src="@{/images/flower.jpg}" alt="lol me"><br>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>Free Money<h2></a>
     <!-- End of body content specific to page -->
-</div></body>
+
+
+    </div>
+</body>
+
+<style>
+    body {background-color: #72c0fc;}
+    .p1 {
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .p2 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .p3 {
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+</style>
 
 </html>

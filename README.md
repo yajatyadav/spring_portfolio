@@ -1,3 +1,4 @@
+
 ## TBD [Spring Portfolio Starter](https://nighthawkcodingsociety.com/projectsearch/details/Spring%20Portfolio%20Starter)
 Runtime link: TBD https://jportfolio.nighthawkcodingsociety.com/
 
@@ -27,6 +28,12 @@ Runtime link: TBD https://jportfolio.nighthawkcodingsociety.com/
 #### * A ".gitignore" can teach a Developer a lot about Java runtime.  A target directory is created when you press play button, byte code is generated and files are moved into this location.
 #### * A "pom.xml" file can teach you a lot about Java dependencies.  This is similar to "requirements.txt" file in Python.  It manages packages and dependencies.
 
-# Table of Collaborators 
-#### * Harry Li, Kyle Myint, Devam Shrivastava, Yajat Yadav, Flora Yuan (Scrum Master)
-# Harry was here no he was 
+## Table of Collaborators 
+
+NAME             | GITHUB Link |
+-------------    | -------------- |
+Kyle Myint | https://github.com/kylem314  |
+Name | Link | 
+Devam Shrivastava | https://github.com/devamshri |
+Flora Yuan | https://github.com/florayuan18 |
+Name | Link |
