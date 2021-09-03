@@ -34,6 +34,6 @@ NAME             | GITHUB Link |
 -------------    | -------------- |
 Kyle Myint | https://github.com/kylem314  |
 Name | Link | 
-Name | Link |
+Devam Shrivastava | https://github.com/devamshri |
 Flora Yuan | https://github.com/florayuan18 |
 Name | Link |
