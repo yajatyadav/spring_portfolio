@@ -78,3 +78,18 @@ Name | Link |
 # --------------------------------------------------------|
 # ?* = extra unsure about this
 # unsure about anything for layout, nobody collaborating :(
+
+
+
+# Harry test reflection
+#  Part A : 13/15
+# Part B:11/12
+# Part A Q6
+# Reflection: I initially thought that int len required some input or variable in order for the method to work, thus I thought that 1 couldn’t work. Three couldn’t work because   # the attributes are not double type. After looking back, I realized that int len was just an attribute that worked just like int w, int h, or int d. Thus, the answer should be 1 # and 2 only. 
+#
+# Part A Q15
+# Reflection: I initially thought that variables can’t be redefined in java. However, it turns that it can’t redefined in the same method. Plus, I should’ve saw that in my answer # there was nothing to define the attribute. Thus, the only logical answer is E
+#
+# Part B Q1
+# Reflection: I thought that 1 and 2 were being treated as integers so I added them together. It turns that += treats 1 and 2 as strings even without quotation marks. This makes D # the right answer. 
+
