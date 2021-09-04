@@ -36,7 +36,7 @@ Kyle Myint | https://github.com/kylem314  |
 Harry Li | https://github.com/wiz124 | 
 Devam Shrivastava | https://github.com/devamshri |
 Flora Yuan | https://github.com/florayuan18 |
-Name | Link |
+Yajat Yadav | https://github.com/yajatyadav |
 
 ## Ideation
 
@@ -78,7 +78,8 @@ Name | Link |
 # --------------------------------------------------------|
 # ?* = extra unsure about this
 # unsure about anything for layout, nobody collaborating :(
-#add an ordering system too
+# add an ordering system too
+# shopping cart would redirect to another page with login information
 
 
 
