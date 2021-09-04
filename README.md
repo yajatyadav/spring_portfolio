@@ -61,7 +61,7 @@ Name | Link |
 #### website idea
 # Website layout:
 # --------------------------------------------------------
-# contributers          contact info?                     |
+# contributers          contact info?     shopping cart  |
 #                                                        |
 #  -----------------------------------------------       |
 #                                                        |
@@ -78,6 +78,7 @@ Name | Link |
 # --------------------------------------------------------|
 # ?* = extra unsure about this
 # unsure about anything for layout, nobody collaborating :(
+#add an ordering system too
 
 
 
