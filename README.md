@@ -58,6 +58,28 @@ Yajat Yadav | https://github.com/yajatyadav |
 * Checkout system
 * Get an order # to pick up food
 
+#### website idea
+# Website layout:
+# --------------------------------------------------------
+# contributers          contact info?     shopping cart  |
+#                                                        |
+#  ----------------------------------------------        |
+#                                                        |
+#                 Name          (gradient backgrd?)      |
+#  ------------------------------------------------      |
+#                          |                             |
+#                          |                             |
+#                          |              reviews ?      |
+#             schedule     |                             |
+#                          |                             |     
+# ------------------------  |						        |
+#                                                        |
+#                     menu                               |
+# --------------------------------------------------------|
+# ?* = extra unsure about this
+# unsure about anything for layout, nobody collaborating :(
+# add an ordering system too
+# shopping cart would redirect to another page with login information
 
 
 ## PBL 1-2, and Unit 2
@@ -69,6 +91,6 @@ Team PBL | Link  |
 Kyle Myint | [Individual PBL](Url) --- [Individual Unit 2](Url)|
 Harry Li | https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce
 Devam Shrivastava | [Individual PBL](Url) --- [Individual Unit 2](Url)|
-Flora Yuan | [Individual PBL](Url) --- [Individual Unit 2](Url)|
+Flora Yuan | https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing
 Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)|
 
