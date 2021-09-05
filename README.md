@@ -66,8 +66,8 @@ Type             | Link(s) | Score |
 Team PBL | Link  | x / 3 |
 -------------    | -------------- | -------------- |
 Kyle Myint | [Individual PBL](Url) --- [Individual Unit 2](Url) | x / 7 |
-Harry Li | https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce | x / 7 |
+Harry Li | [Document](https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce) | x / 7 |
 Devam Shrivastava | [Individual PBL](Url) --- [Individual Unit 2](Url)| x / 7 |
-Flora Yuan | https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing | x / 7 |
+Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing) | x / 7 |
 Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)| x / 7 |
 
