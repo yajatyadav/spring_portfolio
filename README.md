@@ -84,10 +84,10 @@ Yajat Yadav | https://github.com/yajatyadav |
 ## PBL 1-2, and Unit 2
 
 Type             | Link(s)|
-    |  |
+-------------    | -------------- |
 Team PBL | Link  |
 -------------    | -------------- |
-Kyle Myint | [Individual PBL](Url) [Individual Unit 2](Url)|
+Kyle Myint | [Individual PBL](Url) --- [Individual Unit 2](Url)|
 Harry Li | [Individual PBL](Url) [Individual Unit 2](Url)| 
 Devam Shrivastava | [Individual PBL](Url) [Individual Unit 2](Url)|
 Flora Yuan | [Individual PBL](Url) [Individual Unit 2](Url)|
