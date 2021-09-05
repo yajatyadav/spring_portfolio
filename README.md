@@ -67,7 +67,7 @@ Type             | Link(s)|
 Team PBL | Link  |
 -------------    | -------------- |
 Kyle Myint | [Individual PBL](Url) --- [Individual Unit 2](Url)|
-Harry Li | [Individual PBL](Url) --- [Individual Unit 2](Url)| 
+Harry Li | https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce
 Devam Shrivastava | [Individual PBL](Url) --- [Individual Unit 2](Url)|
 Flora Yuan | [Individual PBL](Url) --- [Individual Unit 2](Url)|
 Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)|
