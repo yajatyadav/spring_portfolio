@@ -1,11 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>our website</title>
-</head>
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Greet</title>
+    <!-- End of head content specific to page -->
+</div></head>
+
 <body>
-<p>hello from the other side</p>
-<p>in all seriousness, this space is probs gonna be where we gonna put our dank webpage</p>
-</body>
+<div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/greet" method="GET" id="greetForm">
+                <div>
+                    <label for="greetField">Type a greeting name?</label>
+                    <input name="name" id="greetField">
+                    <button>Greetings!</button>
+                    <p th:text="'Greetings, ' + ${name} + '!'"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div layout:fragment="script" th:remove="tag">
+        <!-- Start of custom script specific to page -->
+        <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
+        <script src="/static/vanta/vanta.birds.min.js" th:src="@{/vanta/vanta.birds.min.js}"></script>
+        <script>
+            VANTA.BIRDS({
+                el: "body",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00
+            })
+        </script>
+    <!-- End of body content specific to page -->
+</div></body>
+
 </html>
