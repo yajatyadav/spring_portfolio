@@ -58,29 +58,6 @@ Yajat Yadav | https://github.com/yajatyadav |
 * Checkout system
 * Get an order # to pick up food
 
-#### website idea
-# Website layout:
-# --------------------------------------------------------
-# contributers          contact info?     shopping cart  |
-#                                                        |
-#  ----------------------------------------------        |
-#                                                        |
-#                 Name          (gradient backgrd?)      |
-#  ------------------------------------------------      |
-#                          |                             |
-#                          |                             |
-#                          |              reviews ?      |
-#             schedule     |                             |
-#                          |                             |     
-# ------------------------  |						        |
-#                                                        |
-#                     menu                               |
-# --------------------------------------------------------|
-# ?* = extra unsure about this
-# unsure about anything for layout, nobody collaborating :(
-# add an ordering system too
-# shopping cart would redirect to another page with login information
-
 
 ## PBL 1-2, and Unit 2
 
