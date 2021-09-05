@@ -61,13 +61,13 @@ Yajat Yadav | https://github.com/yajatyadav |
 
 ## PBL 1-2, and Unit 2
 
-Type             | Link(s)|
--------------    | -------------- |
-Team PBL | Link  |
--------------    | -------------- |
-Kyle Myint | [Individual PBL](Url) --- [Individual Unit 2](Url)|
-Harry Li | https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce
+Type             | Link(s)| | Score |
+-------------    | -------------- | -------------- | 
+Team PBL | Link  | x / 3 |
+-------------    | -------------- | -------------- |
+Kyle Myint | [Individual PBL](Url) --- [Individual Unit 2](Url)| x / 7 |
+Harry Li | https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce | x / 7 |
 Devam Shrivastava | [Individual PBL](Url) --- [Individual Unit 2](Url)|
-Flora Yuan | https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing
-Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)|
+Flora Yuan | https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing | x / 7 |
+Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)| x / 7 |
 
