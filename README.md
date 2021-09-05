@@ -61,7 +61,7 @@ Yajat Yadav | https://github.com/yajatyadav |
 
 ## PBL 1-2, and Unit 2
 
-Type             | Link(s)| | Score |
+Type             | Link(s) | Score |
 -------------    | -------------- | -------------- | 
 Team PBL | Link  | x / 3 |
 -------------    | -------------- | -------------- |
