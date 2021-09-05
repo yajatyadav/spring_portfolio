@@ -68,6 +68,6 @@ Team PBL | Link  | x / 3 |
 Kyle Myint | [Individual PBL](Url) --- [Individual Unit 2](Url) | 7 / 7 | 
 Harry Li | [Document](https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce) | 7 / 7 |
 Devam Shrivastava | [Individual PBL](Url) --- [Individual Unit 2](Url)| 7 / 7 | 
-Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing) | 7 / 7 | Flora helped with organizing all the tangibles, assigning tasks on the Scrum Board, and creating a general layout for the website.
+Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing) | 7 / 7 | Flora helped with organizing all the tangibles, assigning tasks on the Scrum Board, and integrating the mini lab projects.
 Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)| 7 / 7 | 
 
