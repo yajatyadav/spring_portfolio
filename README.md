@@ -33,10 +33,10 @@ Runtime link: TBD https://jportfolio.nighthawkcodingsociety.com/
 NAME             | GITHUB Link |
 -------------    | -------------- |
 Kyle Myint | https://github.com/kylem314  |
-Name | Link | 
+Harry Li | https://github.com/wiz124 | 
 Devam Shrivastava | https://github.com/devamshri |
 Flora Yuan | https://github.com/florayuan18 |
-Name | Link |
+Yajat Yadav | https://github.com/yajatyadav |
 
 ## Ideation
 
@@ -49,11 +49,25 @@ Name | Link |
 #### Theme/Information:	
 * Login system with Student ID & password
 * Dropdown menu selection + buttons to add items to cart
-###### Schedule for which food on which days
-##### Admin accounts able to change the menu
-##### Purchase history / Balance on an account page
-##### Some cool front page with 3D letter maybe 
-##### Front page with recommendations 
-##### Cart 
-##### Checkout system
-##### Get an order # to pick up food
+* Schedule for which food on which days
+* Admin accounts able to change the menu
+* Purchase history / Balance on an account page
+* Some cool front page with 3D letter maybe 
+* Front page with recommendations 
+* Cart 
+* Checkout system
+* Get an order # to pick up food
+
+
+## PBL 1-2, and Unit 2
+
+Type             | Link(s) | Score |
+-------------    | -------------- | -------------- | 
+Team PBL | Link  | x / 3 |
+-------------    | -------------- | -------------- |
+Kyle Myint | [Document](https://docs.google.com/document/d/12ekGIsZJisLkJGaCuvXwtId8GWlxEanrqh6m2N8VmFo/edit?usp=sharing) | 7 / 7 | 
+Harry Li | [Document](https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce) | 7 / 7 |
+Devam Shrivastava | [Individual PBL](Url) --- [Individual Unit 2](Url)| 7 / 7 | 
+Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing) | 7 / 7 | Flora helped with organizing all the tangibles, assigning tasks on the Scrum Board, and integrating the mini lab projects.
+Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)| 7 / 7 | 
+

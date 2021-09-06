@@ -15,9 +15,29 @@
         <h1>About Me</h1>
         <p> Hi, my name is Flora.  A fun fact about myself is that I'm Canadian.</p>
         <img src="/static/images/flower.jpg" th:src="@{/images/flower.jpg}" alt="lol me"><br>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>Free Money<h2></a>
-    <!-- End of body content specific to page -->
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h2>Free Money<h2></a><br>
 
+        <form action="/floraabout" method="GET" id="floraaboutForm">
+             <div>
+                <label for="FavNumber">What is your favorite number?</label>
+                <input name="name" id="FavNumber">
+                <button>Submit</button>
+                <p th:text="'Hello, Your Favorite Number is ' + ${name} + '!'"></p>
+             </div><br>
+    <h2>Change Background Color!</h2>
+    <input type="text" id="colorInputText">
+    <input type="color" id="colorInputColor">
+    <input type="button" id="colorButton" value="Click to Change Color"
+    onclick="changeColor()">
+            <script>
+                function changeColor() {
+                    let color = document.getElementById('colorInputColor').value;
+                    document.body.style.backgroundColor = color;
+                    document.getElementById('colorInputText').value = color;
+                }
+            </script>
+
+    <!-- End of body content specific to page -->
 
     </div>
 </body>
