@@ -36,7 +36,7 @@ Kyle Myint | https://github.com/kylem314  |
 Name | Link | 
 Devam Shrivastava | https://github.com/devamshri |
 Flora Yuan | https://github.com/florayuan18 |
-Name | Link |
+Yajat Yadav | https://github.com/yajatyadav |
 
 ## Ideation
 
