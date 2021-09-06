@@ -63,7 +63,7 @@ Yajat Yadav | https://github.com/yajatyadav |
 
 Type             | Link(s) | Score |
 -------------    | -------------- | -------------- | 
-Team PBL | Link  | x / 3 |
+Team PBL | [Team Document](https://docs.google.com/document/d/1X3RJ1Kt_juGq6w643cy4FqbSa7k2ZLt8QfRiYUg_PlQ/edit)  | 3 / 3 |
 -------------    | -------------- | -------------- |
 Kyle Myint | [Document](https://docs.google.com/document/d/12ekGIsZJisLkJGaCuvXwtId8GWlxEanrqh6m2N8VmFo/edit?usp=sharing) | 7 / 7 | 
 Harry Li | [Document](https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce) | 7 / 7 |
@@ -73,22 +73,24 @@ Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)| 7 / 7 |
 
 #### website idea
 #### Website layout:
-#### --------------------------------------------------------
-#### contributers          contact info?     shopping cart  |
-####                                                        |
-####  ----------------------------------------------        |
-####                                                       |
-####                 Name          (gradient backgrd?)      |
-####  ------------------------------------------------      |
-####                          |                             |
-####                          |                             |
-####                          |              reviews ?      |
-####             schedule     |                             |
-####                          |                             |     
-#### ------------------------  |                                |
-####                                                        |
-####                     menu                               |
-#### --------------------------------------------------------|
+<!---
+|-------------------------------------------------------|
+|contributers          contact info?     shopping cart  |
+|                                                       |
+| ------------------------------------------------------|        
+|                                                       |
+|                Name          (gradient backgrd?)      |
+|-------------------------------------------------------|
+|                         |                             |
+|                         |                             |
+|                          |              reviews ?     |
+|            schedule     |                             |
+|                         |                             |     
+|-------------------------|-----------------------------|                                
+|                                                       |
+|                    menu                               |
+|-------------------------------------------------------|
+--->
 #### ?* = extra unsure about this
 #### unsure about anything for layout, nobody collaborating :(
 #### add an ordering system too
