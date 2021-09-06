@@ -56,11 +56,11 @@ Yajat Yadav | https://github.com/yajatyadav |
 * Checkout system
 * Get an order # to pick up food
 ## PBL 1-2, and Unit 2
-Type             | Link(s) | Score |
+Type             | Link(s) | Score | 
 -------------    | -------------- | -------------- | 
 Team PBL | Link  | 3 / 3 |
 Kyle Myint | [Document](https://docs.google.com/document/d/12ekGIsZJisLkJGaCuvXwtId8GWlxEanrqh6m2N8VmFo/edit?usp=sharing) | 7 / 7 | 
-Harry Li | [Document](https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce) | 7 / 7 | I have completed all necessary content which were done with fidelity
+Harry Li | [Document](https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce) | 7 / 7 | I have completed all necessary content which were done with fidelity |
 Devam Shrivastava | [Individual PBL](Url) --- [Individual Unit 2](Url)| 7 / 7 | 
 Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing) | 7 / 7 | Flora helped with organizing all the tangibles, assigning tasks on the Scrum Board, and integrating the mini lab projects.
 Yajat Yadav | [Document](https://docs.google.com/document/d/1H7oCVp_NpeDNwuLqAO1a7uDIAogCc7RZWw9CcGLVmB4/edit?usp=sharing)| 7 / 7 | 
