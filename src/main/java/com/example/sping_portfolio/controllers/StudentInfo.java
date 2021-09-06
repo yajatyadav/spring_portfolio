@@ -1,5 +1,10 @@
 package com.example.sping_portfolio.controllers;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 public class StudentInfo {
     public static void main(String[] args){
 
@@ -10,7 +15,6 @@ public class StudentInfo {
 
         final int numClass;
         numClass = 5;
-// hi
         boolean atDelNorte;
         atDelNorte = true;
 
@@ -21,4 +25,3 @@ public class StudentInfo {
         System.out.println(name + " is currently at Del Norte for the 2021-22 school year: " + atDelNorte);
 
     }}
-
