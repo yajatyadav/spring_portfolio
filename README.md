@@ -72,24 +72,24 @@ Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgo
 Yajat Yadav | [Individual PBL](Url) --- [Individual Unit 2](Url)| 7 / 7 | 
 
 #### website idea
-# Website layout:
-# --------------------------------------------------------
-# contributers          contact info?     shopping cart  |
-#                                                        |
-#  ----------------------------------------------        |
-#                                                        |
-#                 Name          (gradient backgrd?)      |
-#  ------------------------------------------------      |
-#                          |                             |
-#                          |                             |
-#                          |              reviews ?      |
-#             schedule     |                             |
-#                          |                             |     
-# ------------------------  |                                |
-#                                                        |
-#                     menu                               |
-# --------------------------------------------------------|
-# ?* = extra unsure about this
-# unsure about anything for layout, nobody collaborating :(
-# add an ordering system too
-# shopping cart would redirect to another page with login information
+#### Website layout:
+#### --------------------------------------------------------
+#### contributers          contact info?     shopping cart  |
+####                                                        |
+####  ----------------------------------------------        |
+####                                                       |
+####                 Name          (gradient backgrd?)      |
+####  ------------------------------------------------      |
+####                          |                             |
+####                          |                             |
+####                          |              reviews ?      |
+####             schedule     |                             |
+####                          |                             |     
+#### ------------------------  |                                |
+####                                                        |
+####                     menu                               |
+#### --------------------------------------------------------|
+#### ?* = extra unsure about this
+#### unsure about anything for layout, nobody collaborating :(
+#### add an ordering system too
+#### shopping cart would redirect to another page with login information
