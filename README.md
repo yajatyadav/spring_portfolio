@@ -58,69 +58,11 @@ Yajat Yadav | https://github.com/yajatyadav |
 ## PBL 1-2, and Unit 2
 Type             | Link(s) | Score | 
 -------------    | -------------- | -------------- | 
-Team PBL | Link  | 3 / 3 |
+Team PBL | [Document](https://docs.google.com/document/d/1X3RJ1Kt_juGq6w643cy4FqbSa7k2ZLt8QfRiYUg_PlQ/edit?usp=sharing)  | 3 / 3 |
 Kyle Myint | [Document](https://docs.google.com/document/d/12ekGIsZJisLkJGaCuvXwtId8GWlxEanrqh6m2N8VmFo/edit?usp=sharing) | 7 / 7 | 
 Harry Li | [Document](https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce) | 7 / 7 | 
-Devam Shrivastava | [Individual PBL](Url) --- [Individual Unit 2](Url)| 7 / 7 | 
-Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing) | 7 / 7 | Flora helped with organizing all the tangibles, assigning tasks on the Scrum Board, and integrating the mini lab projects.
+Devam Shrivastava | [Document](https://docs.google.com/document/d/1lUQ_udRR1pJ6LzKUM_6pWJmPsrRB-Fv0lp9Uvap1j5k/edit) | 7 / 7 | 
+Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing) | 7 / 7 |
 Yajat Yadav | [Document](https://docs.google.com/document/d/1H7oCVp_NpeDNwuLqAO1a7uDIAogCc7RZWw9CcGLVmB4/edit?usp=sharing)| 7 / 7 | 
 
-
-# Website layout:
-# --------------------------------------------------------
-# contributers          contact info?                     |
-#                                                        |
-#  -----------------------------------------------       |
-#                                                        |
-#                 Name          (gradient backgrd?)      |
-#  ------------------------------------------------      |
-#                          |                             |
-#                          |                             |
-#                          |              reviews ?      |
-#             schedule     |                             |
-#                          |                             |     
-# ------------------------  |						        |
-#                                                        |
-#                     menu                               |
-# --------------------------------------------------------|
-# ?* = extra unsure about this
-# unsure about anything for layout, nobody collaborating :(
-
-# Theme2
-# -------------------------------------------------------|
-# contributers         DN LOGO?                order     |
-#                                                        |
-#  -----------------------------------------------       |
-#                                                        |
-#                menu                                    |
-#  ------------------------------------------------      |
-#     food      |       price         |     availability |
-#               |                     |                  |
-#               |                     |                  |
-#               |                     |                  |
-#               |                     |                  |     
-#               |              			  |		               |
-#               |                     |                  |
-#               |                     |                  |
-# -------------------------------------------------------|
-
-
-# Theme3
-### lets make this one educational 
-# -------------------------------------------------------|
-# contributers                                           |
-#  (nav bar)     home     menu    order                  |
-#  -----------------------------------------------       |
-#                                                        |
-#                         food fact 1                    |
-#                                                        |
-#                                                        |
-#    food fact 3       picture of food      food fact 2  |
-#                                                        |
-#                                                        |
-#                                                        |     
-#                      food fact 4       			  		     |
-#                                                        |
-#       purpose                            message       |
-# -------------------------------------------------------|
 
