@@ -10,6 +10,17 @@ Yajat Yadav | yajatyadav | [Tasks](https://github.com/yajatyadav/spring_portfoli
 Flora Yuan | florayuan18 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://cs-a-hq.slack.com/archives/C02BVTN7Q3V/p1631288660003900) [Link](https://github.com/yajatyadav/spring_portfolio/commits?author=florayuan18) | [Link](https://github.com/florayuan18) |
 Harry Li |wiz124 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Awiz124)|[Link](https://github.com/yajatyadav/spring_portfolio/projects/1)|[Link](https://github.com/yajatyadav/spring_portfolio/commits?author=wiz124)|[Link](https://github.com/wiz124)|
 
+
+## Journal Links
+Type             | Link(s) | Score | 
+-------------    | -------------- | -------------- | 
+Team PBL | [Document](https://docs.google.com/document/d/1X3RJ1Kt_juGq6w643cy4FqbSa7k2ZLt8QfRiYUg_PlQ/edit?usp=sharing)  | 3 / 3 |
+Kyle Myint | [Document](https://docs.google.com/document/d/12ekGIsZJisLkJGaCuvXwtId8GWlxEanrqh6m2N8VmFo/edit?usp=sharing) | 7 / 7 | 
+Harry Li | [Document](https://docs.google.com/document/d/1bCHUpg6SXnxEQVpmvC_yCZpuYMeff0Th3QgivQjexKw/edit#heading=h.usvbibhx2yce) | 7 / 7 | 
+Devam Shrivastava | [Document](https://docs.google.com/document/d/1lUQ_udRR1pJ6LzKUM_6pWJmPsrRB-Fv0lp9Uvap1j5k/edit) | 7 / 7 | 
+Flora Yuan | [Document](https://docs.google.com/document/d/1_QDCIAPbDgrp_2ae4xgov3GXOcW0bAwPcs4AZBxrn-0/edit?usp=sharing) | 7 / 7 |
+Yajat Yadav | [Document](https://docs.google.com/document/d/1H7oCVp_NpeDNwuLqAO1a7uDIAogCc7RZWw9CcGLVmB4/edit?usp=sharing)| 7 / 7 | 
+
 ## TBD [Spring Portfolio Starter](https://nighthawkcodingsociety.com/projectsearch/details/Spring%20Portfolio%20Starter)
 Runtime link: TBD https://jportfolio.nighthawkcodingsociety.com/
 
