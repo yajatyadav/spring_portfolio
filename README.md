@@ -3,7 +3,7 @@
 
 m221_Penguins   | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1) | [Repo Contributors](https://github.com/yajatyadav/spring_portfolio/graphs/contributors) | ------ | ------ | ------ |
 ------ | ------ | ------ | ------ | ------ | ------ |
-Name            | GitHub ID | Tasks | Scrum Board | Commmits | Profile |
+Name            | GitHub ID | Tasks | Scrum Board | Commits | Profile |
 Kyle Myint | kylem314 | [Link](https://github.com/yajatyadav/spring_portfolio/issues?q=is%3Aopen+assignee%3Akylem314) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Akylem314) | [Overview](https://files.slack.com/files-pri/TRDESSQ3T-F02EELJMLN5/image.png) -- [Commit Page](https://github.com/yajatyadav/spring_portfolio/commits?author=kylem314)| [Link](https://github.com/kylem314) |
 Devam Shrivastava | devamshri | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Adevamshri) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Adevamshri) | [Link](https://github.com/yajatyadav/spring_portfolio/commits?author=devamshri) | [Link](https://github.com/devamshri) |
 Yajat Yadav | yajatyadav | [Tasks](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Ayajatyadav) | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Ayajatyadav) |  [Commit History](https://github.com/yajatyadav/spring_portfolio/commits?author=yajatyadav) [Commit Screenshot](https://files.slack.com/files-pri/TRDESSQ3T-F02EELJMLN5/image.png)| [Profile](https://github.com/yajatyadav)  
