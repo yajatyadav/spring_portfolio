@@ -8,7 +8,7 @@ Kyle Myint | kylem314 | [Link](link) | [Link](link) | [Link](https://files.slack
 Devam Shrivastava | ---- | [Link](link) | [Link](link) | [Link](link) | [Link](link) |
 Yajat Yadav | ---- | [Link](link) | [Link](link) | [Link](https://files.slack.com/files-pri/TRDESSQ3T-F02DMAR6T7H/image.png) | [Link](link) |
 Flora Yuan | florayuan18 | [Link](link) | [Link](link) | [Link](https://cs-a-hq.slack.com/files/U02BQ6P8FN0/F02EELQ7TMX/image.png) | [Link](https://github.com/florayuan18) |
-Harry Li | ---- | [Link](link) | [Link](link) | [Link](link) | [Link](link) |
+Harry Li |wiz124 | [Link](link) | [Link](link) | [Link](link) | [Link]https://docs.google.com/document/d/18TBm39xkligSA002nFVEutg6p7SjGpsT5vee8QyZWS0/edit |
 
 ## TBD [Spring Portfolio Starter](https://nighthawkcodingsociety.com/projectsearch/details/Spring%20Portfolio%20Starter)
 Runtime link: TBD https://jportfolio.nighthawkcodingsociety.com/
