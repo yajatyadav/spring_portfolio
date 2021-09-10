@@ -4,10 +4,10 @@
 m221_Penguins   | [Scrum Board](link) | [Repo Contributors](link) | ------ | ------ | ------ |
 ------ | ------ | ------ | ------ | ------ | ------ |
 Name            | GitHub ID | Tasks | Scrum Board | Commmits | Profile |
-Kyle Myint | kylem314 | [Link](link) | [Link](link) | [Overview](https://files.slack.com/files-pri/TRDESSQ3T-F02EELJMLN5/image.png) -- [Commit Page](https://github.com/yajatyadav/spring_portfolio/commits?author=kylem314) | [Link](https://github.com/kylem314) |
-Devam Shrivastava | devamshri | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Adevamshri) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Adevamshri) | [Link](https://github.com/yajatyadav/spring_portfolio/commits?author=devamshri) | [Link](https://github.com/devamshri) |
-Yajat Yadav | yajatyadav | [Tasks](link) | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Ayajatyadav) | [Commit Profile](https://github.com/yajatyadav) 
-Flora Yuan | florayuan18 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://github.com/yajatyadav/spring_portfolio/commits?author=florayuan18) | [Link](https://github.com/florayuan18) |
+Kyle Myint | kylem314 | [Link](link) | [Link](link) | [Link](https://files.slack.com/files-pri/TRDESSQ3T-F02EELJMLN5/image.png) | [Link](https://github.com/kylem314) |
+Devam Shrivastava | ---- | [Link](link) | [Link](link) | [Link](link) | [Link](link) |
+Yajat Yadav | yajatyadav | [Tasks](link) | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Ayajatyadav) |  [Commit History] (https://github.com/yajatyadav/spring_portfolio/commits?author=yajatyadav)| [Profile](https://github.com/yajatyadav)  
+Flora Yuan | florayuan18 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://cs-a-hq.slack.com/files/U02BQ6P8FN0/F02EELQ7TMX/image.png) | [Link](https://github.com/florayuan18) |
 Harry Li |wiz124 | [Link](https://docs.google.com/document/d/18TBm39xkligSA002nFVEutg6p7SjGpsT5vee8QyZWS0/edit)
 
 ## TBD [Spring Portfolio Starter](https://nighthawkcodingsociety.com/projectsearch/details/Spring%20Portfolio%20Starter)
