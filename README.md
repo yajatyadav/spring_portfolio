@@ -4,7 +4,7 @@
 m221_Penguins   | [Scrum Board](link) | [Repo Contributors](link) | ------ | ------ | ------ |
 ------ | ------ | ------ | ------ | ------ | ------ |
 Name            | GitHub ID | Tasks | Scrum Board | Commmits | Profile |
-Kyle Myint | kylem314 | [Link](link) | [Link](link) | [Link](https://files.slack.com/files-pri/TRDESSQ3T-F02EELJMLN5/image.png) | [Link](https://github.com/kylem314) |
+Kyle Myint | kylem314 | [Link](link) | [Link](link) | [Overview](https://files.slack.com/files-pri/TRDESSQ3T-F02EELJMLN5/image.png) [Commit Page](https://github.com/yajatyadav/spring_portfolio/commits?author=kylem314) | [Link](https://github.com/kylem314) |
 Devam Shrivastava | ---- | [Link](link) | [Link](link) | [Link](link) | [Link](link) |
 Yajat Yadav | ---- | [Link](link) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Ayajatyadav) | [Link](https://files.slack.com/files-pri/TRDESSQ3T-F02DMAR6T7H/image.png) | [Link](https://github.com/yajatyadav) |
 Flora Yuan | florayuan18 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://cs-a-hq.slack.com/files/U02BQ6P8FN0/F02EELQ7TMX/image.png) | [Link](https://github.com/florayuan18) |
