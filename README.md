@@ -6,7 +6,7 @@ m221_Penguins   | [Scrum Board](link) | [Repo Contributors](link) | ------ | ---
 Name            | GitHub ID | Tasks | Scrum Board | Commmits | Profile |
 Kyle Myint | [Link](link) | [Link](link) | [Link](link) | [Link](https://files.slack.com/files-pri/TRDESSQ3T-F02EELJMLN5/image.png) | [Link](https://github.com/kylem314) |
 Devam Shrivastava | [Link](link) | [Link](link) | [Link](link) | [Link](link) | [Link](link) |
-Yajat Yadav | [Link](link) | [Link](link) | [Link](link) | [Link](https://files.slack.com/files-pri/TRDESSQ3T-F02DMAR6T7H/image.png) | [Link](link) |
+Yajat Yadav | [Link](link) | [Link](link) | [Link](link) | [Link](https://files.slack.com/files-pri/TRDESSQ3T-F02DMAR6T7H/image.png) | [Link](https://github.com/yajatyadav) |
 Flora Yuan | [Link](link) | [Link](link) | [Link](link) | [Link](link) | [Link](link) |
 Harry Li | [Link](link) | [Link](link) | [Link](link) | [Link](link) | [Link](link) |
 
