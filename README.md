@@ -11,7 +11,7 @@ Yajat Yadav | [Document](Link)| x / 5 |
 ## Completed Issues 9/16-9/20
 Issue Name             | Link(s) | 
 -------------    | -------------- | 
-Issue | [Issue](Link)  |
+Update Readme | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/13)  |
 Issue | [Issue](Link) | 
 Issue | [Issue](Link) |
 
