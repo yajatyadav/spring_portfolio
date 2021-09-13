@@ -8,6 +8,14 @@ Devam Shrivastava | [Document](Link) | x / 5 |
 Flora Yuan | [Document](Link) | x / 5 |
 Yajat Yadav | [Document](Link)| x / 5 | 
 
+## Completed Issues 9/16-9/20
+Issue Name             | Link(s) | 
+-------------    | -------------- | 
+Issue | [Issue](Link)  |
+Issue | [Issue](Link) | 
+Issue | [Issue](Link) |
+
+
 
 ## Pop Quiz 9/10/2021
 
