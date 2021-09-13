@@ -9,9 +9,9 @@ Flora Yuan | [Document](https://docs.google.com/document/d/1a9IQU3_uE1ipK_MvJwMl
 Yajat Yadav | [Document](Link)| x / 5 | 
 
 ## Completed Issues 9/16-9/20
-Issue Name             | Link(s) | 
+Issue Name             | Link | 
 -------------    | -------------- | 
-Issue | [Issue](Link)  |
+Update Readme | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/13)  |
 Issue | [Issue](Link) | 
 Issue | [Issue](Link) |
 
