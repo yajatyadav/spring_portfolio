@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class Binary_Controller {
     @GetMapping("/binary")
     public String binary(@RequestParam(name = "name", required = false, defaultValue = "x") String name, Model model) {
-        model.addAttribute("bits", changer);
+//        model.addAttribute("bits", changer);
         return "binary";
     }
 
