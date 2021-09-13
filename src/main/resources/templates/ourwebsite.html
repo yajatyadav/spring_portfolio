@@ -30,28 +30,7 @@ unsure about anything for layout, nobody collaborating :(
 
 
 
-    .format {
-        line-height:5px;
-        font-size: 15px;
-        font-family: Sans-Serif;
-    }
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-    }
 
-
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #dddddd;
-    }
-</style>
 </head>
 <body>
 <!-- gotta put the authors somewhere-->
@@ -64,71 +43,17 @@ unsure about anything for layout, nobody collaborating :(
     <a href="/order"><button class="order1" id="position"> order</button></a>
 
 <!--this for the logo and name of website-->
-<table id ="gradient"  style="width:100%">
-    <tr>
+<div id ="gradient"  style="width:100%">
+
         <th class ="title" style="height:250px">Del Norte Food Ordering Service</th>
-    </tr>
 
 <!--menu stuff -->
-</table>
-
-
-    <img src="/static/images/flower.jpg" th:src="@{/images/Sec_Lunch_September_2021.jpg}" alt="menu" width="50%" height="600"><br>
-    <img src="/static/images/DNSnacks.jpg" th:src="@{/images/DNSnacks.jpg}" alt="menu" width="35%" height="600">
-    <img src="/static/images/DNBeverages.jpg" th:src="@{/images/DNBeverages.jpg}" alt="menu" width="25%" height="300">
-
-<h2>Menu</h2>
-<div class="scroll">
-    Baby Carrots <br>
-    Whole Apple, Orange, or Banana <br>
-    Fruit Cup <br>
-    Fresh Seasonal/Specialty Fruit <br>
-    Fresh Apple Slices <br>
-    Dried Cranberries or dried Fruit Blend <br>
-    String Cheese or Cheese Cubes <br>
-    Cheez-It Crackers <br>
-    Freshly Baked Cookie <br>
-    Granola Bar <br>
-    Pop-Tart <br>
-    Cereal Bar <br>
-    Baked or Reduced Fat Chips <br>
-    Brownie <br>
-    Mini Chocolate Chip Cookies <br>
-    Soft Pretzel <br>
-    Low Fat Ice Cream <br>
-    Bagel with Light Cream Cheese <br>
-    Pirate's Booty Corn Puffs <br>
-    Crumb Square <br>
-    Rice Krispies Treat <br>
-    Banana Bread <br>
-    Cinnamon Roll <br>
-    Tornado (chicken or beef) <br>
-    Soft Pretzel with Nacho Cheese Sauce <br>
-    "Nada" Pocket <br>
-    Yogurt Parfait <br>
 </div>
 
 
-
-    <table>
-        <tr>
-            <th>Fruits/Vegetables</th>
-            <th></th>
-            <th>Whole Apple, Orange, or Banana - $0.50</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-        <tr>
-            <th>09/20: Teriyaki Chicken with Chow Mein Noodles</th>
-            <th>Supreme Nachos</th>
-            <th>09/01 & 09/22: Meatball Sub with Mozzarella Cheese<br>
-                09/08 & 09/29: Beef Hot Dog<br>
-                09/15: Corn Dog<br>
-            <th>
-            </th>>
-        </tr>
-    </table>
-
+    <img src="/static/images/flower.jpg" th:src="@{/images/Sec_Lunch_September_2021.jpg}" alt="menu" width="50%" height="600">
+    <img src="/static/images/DNSnacks.jpg" th:src="@{/images/DNSnacks.jpg}" alt="menu" width="35%" height="600">
+    <img src="/static/images/DNBeverages.jpg" th:src="@{/images/DNBeverages.jpg}" alt="menu" width="25%" height="300">
 
 
 </body>
@@ -172,17 +97,5 @@ unsure about anything for layout, nobody collaborating :(
         top:1%;
         right: 3%;
         position: absolute;
-    }
-
-    div.scroll {
-        background-color: #9ac4ff;
-        width: 600px;
-        height: 300px;
-        overflow-x: hidden;
-        overflow-y: auto;
-        text-align: center;
-        padding: 20px;
-        font-size: 15px;
-        font-family: Sans-Serif;
     }
 </style>
