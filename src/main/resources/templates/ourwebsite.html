@@ -30,12 +30,32 @@ unsure about anything for layout, nobody collaborating :(
 
 
 
+    .format {
+        line-height:5px;
+        font-size: 15px;
+        font-family: Sans-Serif;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
 
 
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
 </head>
 <body>
 <!-- gotta put the authors somewhere-->
-    <h5 style="font-size:17px;">Devs: </h5>
+<p class="format" id="special">Devs: </p>
     <p class="format" >Harry Li</p>
     <p class="format">Devam Shrivestava </p>
     <p class="format">Yajat Yadav</p>
@@ -46,7 +66,7 @@ unsure about anything for layout, nobody collaborating :(
 <!--this for the logo and name of website-->
 <table id ="gradient"  style="width:100%">
     <tr>
-        <th class ="title" style="height:250px">Del Norte Food Delivery Service</th>
+        <th class ="title" style="height:250px">Del Norte Food Ordering Service</th>
     </tr>
 
 <!--menu stuff -->
@@ -56,6 +76,40 @@ unsure about anything for layout, nobody collaborating :(
     <img src="/static/images/flower.jpg" th:src="@{/images/Sec_Lunch_September_2021.jpg}" alt="menu" width="50%" height="600"><br>
     <img src="/static/images/DNSnacks.jpg" th:src="@{/images/DNSnacks.jpg}" alt="menu" width="35%" height="600">
     <img src="/static/images/DNBeverages.jpg" th:src="@{/images/DNBeverages.jpg}" alt="menu" width="25%" height="300">
+
+<h2>Menu</h2>
+<div class="scroll">
+    Baby Carrots <br>
+    Whole Apple, Orange, or Banana <br>
+    Fruit Cup <br>
+    Fresh Seasonal/Specialty Fruit <br>
+    Fresh Apple Slices <br>
+    Dried Cranberries or dried Fruit Blend <br>
+    String Cheese or Cheese Cubes <br>
+    Cheez-It Crackers <br>
+    Freshly Baked Cookie <br>
+    Granola Bar <br>
+    Pop-Tart <br>
+    Cereal Bar <br>
+    Baked or Reduced Fat Chips <br>
+    Brownie <br>
+    Mini Chocolate Chip Cookies <br>
+    Soft Pretzel <br>
+    Low Fat Ice Cream <br>
+    Bagel with Light Cream Cheese <br>
+    Pirate's Booty Corn Puffs <br>
+    Crumb Square <br>
+    Rice Krispies Treat <br>
+    Banana Bread <br>
+    Cinnamon Roll <br>
+    Tornado (chicken or beef) <br>
+    Soft Pretzel with Nacho Cheese Sauce <br>
+    "Nada" Pocket <br>
+    Yogurt Parfait <br>
+</div>
+
+
+
     <table>
         <tr>
             <th>Fruits/Vegetables</th>
@@ -82,7 +136,6 @@ unsure about anything for layout, nobody collaborating :(
 </html>
 
 <style>
-
     #gradient{
         background-image: linear-gradient(170deg,#000080,#2ECC71);
     }
@@ -95,6 +148,7 @@ unsure about anything for layout, nobody collaborating :(
     .order1{
         background-color: darkgray;
         border: none;
+        color: white;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
@@ -102,6 +156,7 @@ unsure about anything for layout, nobody collaborating :(
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
+        background-color:blue;
     }
 
 
@@ -110,10 +165,24 @@ unsure about anything for layout, nobody collaborating :(
         font-size: 15px;
         font-family: Sans-Serif;
     }
-
+    #special{
+        font-weight: bold;
+    }
     #position{
         top:1%;
         right: 3%;
         position: absolute;
+    }
+
+    div.scroll {
+        background-color: #9ac4ff;
+        width: 600px;
+        height: 300px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        padding: 20px;
+        font-size: 15px;
+        font-family: Sans-Serif;
     }
 </style>
