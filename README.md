@@ -1,23 +1,4 @@
-## Prototype Check and Unit 3 9/16-9/20
-Name             | Link(s) | Score | 
--------------    | -------------- | -------------- | 
-Team PBL | [Document](Link)  | x / 5 |
-Kyle Myint | [Document](https://docs.google.com/document/d/1CxsEdfdUGzKdkgkaZQxlAywKfanPuT3YYo9fy-y2DZU/edit) | x / 5 | 
-Harry Li | [Document](https://docs.google.com/document/d/1ROEbYQ--ZeuYzCdiGoVsIqJUdvelKxbON_kpQ8kyJ5U/edit) | x/ 5 | 
-Devam Shrivastava | [Document](Link) | x / 5 | 
-Flora Yuan | [Document](https://docs.google.com/document/d/1a9IQU3_uE1ipK_MvJwMlkhNlwpNBhdLAmtqbNlbwHQo/edit?usp=sharing) | x / 5 |
-Yajat Yadav | [Document](Link)| x / 5 | 
-
-## Completed Issues 9/16-9/20
-Issue Name             | Link | 
--------------    | -------------- | 
-Update Readme | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/13)  |
-Issue | [Issue](Link) | 
-Issue | [Issue](Link) |
-
-
-
-## Pop Quiz 9/10/2021
+## Project Details
 
 m221_Penguins   | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1) | [Repo Contributors](https://github.com/yajatyadav/spring_portfolio/graphs/contributors) | ------ | ------ | ------ |
 ------ | ------ | ------ | ------ | ------ | ------ |
@@ -26,7 +7,26 @@ Kyle Myint | kylem314 | [Link](https://github.com/yajatyadav/spring_portfolio/is
 Devam Shrivastava | devamshri | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Adevamshri) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Adevamshri) | [Link](https://github.com/yajatyadav/spring_portfolio/commits?author=devamshri) | [Link](https://github.com/devamshri) |
 Yajat Yadav | yajatyadav | [Tasks](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Ayajatyadav) | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Ayajatyadav) |  [Commit History](https://github.com/yajatyadav/spring_portfolio/commits?author=yajatyadav) [Commit Screenshot](https://files.slack.com/files-pri/TRDESSQ3T-F02EELJMLN5/image.png)| [Profile](https://github.com/yajatyadav)  
 Flora Yuan | florayuan18 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://cs-a-hq.slack.com/archives/C02BVTN7Q3V/p1631288660003900) [Link](https://github.com/yajatyadav/spring_portfolio/commits?author=florayuan18) | [Link](https://github.com/florayuan18) |
-Harry Li |wiz124 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Awiz124)|[Link](https://github.com/yajatyadav/spring_portfolio/projects/1)|[Link](https://github.com/yajatyadav/spring_portfolio/commits?author=wiz124)|[Link](https://github.com/wiz124)|
+Harry Li | wiz124 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Awiz124)|[Link](https://github.com/yajatyadav/spring_portfolio/projects/1)|[Link](https://github.com/yajatyadav/spring_portfolio/commits?author=wiz124)|[Link](https://github.com/wiz124)|
+
+
+
+## Prototype Check and Unit 3 9/16-9/20
+Name             | Link(s) | Score | 
+-------------    | -------------- | -------------- | 
+Team PBL | [Document](https://docs.google.com/document/d/10An5E4cxTf8f4C0xxmIFeiW3VPrkqMKijo_gt5rHDZs/edit?usp=sharing)  | 5 / 5 |
+Kyle Myint | [Document](https://docs.google.com/document/d/1CxsEdfdUGzKdkgkaZQxlAywKfanPuT3YYo9fy-y2DZU/edit) | 5 / 5 | 
+Harry Li | [Document](https://docs.google.com/document/d/1ROEbYQ--ZeuYzCdiGoVsIqJUdvelKxbON_kpQ8kyJ5U/edit) | 5 / 5 | 
+Devam Shrivastava | [Document](https://docs.google.com/document/d/1lUQ_udRR1pJ6LzKUM_6pWJmPsrRB-Fv0lp9Uvap1j5k/edit) | 5 / 5 |  
+Flora Yuan | [Document](https://docs.google.com/document/d/1a9IQU3_uE1ipK_MvJwMlkhNlwpNBhdLAmtqbNlbwHQo/edit?usp=sharing) | 5 / 5 |
+Yajat Yadav | [Document](https://docs.google.com/document/d/18WtqhehIF7iWMmhNLunfDmvwQxE_vz1laiWYDu0a9hs/edit?usp=sharing)| 5 / 5 | 
+
+## Completed Issues 9/16-9/20
+Issue Name             | Link | 
+-------------    | -------------- | 
+Update Readme | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/13)  |
+Display Foods Available | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/15) | 
+Layout Menu Page | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/22) |
 
 
 ## Journal Links
