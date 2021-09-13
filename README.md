@@ -6,7 +6,7 @@ Kyle Myint | [Document](https://docs.google.com/document/d/1CxsEdfdUGzKdkgkaZQxl
 Harry Li | [Document](https://docs.google.com/document/d/1ROEbYQ--ZeuYzCdiGoVsIqJUdvelKxbON_kpQ8kyJ5U/edit) | x/ 5 | 
 Devam Shrivastava | [Document](Link) | x / 5 | 
 Flora Yuan | [Document](https://docs.google.com/document/d/1a9IQU3_uE1ipK_MvJwMlkhNlwpNBhdLAmtqbNlbwHQo/edit?usp=sharing) | x / 5 |
-Yajat Yadav | [Document](https://docs.google.com/document/d/18WtqhehIF7iWMmhNLunfDmvwQxE_vz1laiWYDu0a9hs/edit?usp=sharing)| x / 5 | 
+Yajat Yadav | [Document](https://docs.google.com/document/d/18WtqhehIF7iWMmhNLunfDmvwQxE_vz1laiWYDu0a9hs/edit?usp=sharing)| 5 / 5 | 
 
 ## Completed Issues 9/16-9/20
 Issue Name             | Link | 
