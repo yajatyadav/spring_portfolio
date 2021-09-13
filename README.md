@@ -15,8 +15,6 @@ Update Readme | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/13
 Display Foods Available | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/15) | 
 Layout Menu Page | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/22) |
 
-
-
 ## Pop Quiz 9/10/2021
 
 m221_Penguins   | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1) | [Repo Contributors](https://github.com/yajatyadav/spring_portfolio/graphs/contributors) | ------ | ------ | ------ |
