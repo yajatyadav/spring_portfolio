@@ -12,7 +12,7 @@ Yajat Yadav | [Document](Link)| x / 5 |
 Issue Name             | Link | 
 -------------    | -------------- | 
 Update Readme | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/13)  |
-Issue | [Issue](Link) | 
+Display Foods Available | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/15) | 
 Issue | [Issue](Link) |
 
 
