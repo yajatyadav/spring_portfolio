@@ -13,6 +13,7 @@ Issue Name             | Link |
 -------------    | -------------- | 
 Update Readme | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/13)  |
 Display Foods Available | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/15) | 
+Layout Menu Page | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/22) |
 Issue | [Issue](Link) |
 
 
