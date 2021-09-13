@@ -30,7 +30,28 @@ unsure about anything for layout, nobody collaborating :(
 
 
 
+    .format {
+        line-height:5px;
+        font-size: 15px;
+        font-family: Sans-Serif;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
 
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
 </head>
 <body>
 <!-- gotta put the authors somewhere-->
@@ -55,6 +76,40 @@ unsure about anything for layout, nobody collaborating :(
     <img src="/static/images/flower.jpg" th:src="@{/images/Sec_Lunch_September_2021.jpg}" alt="menu" width="50%" height="600"><br>
     <img src="/static/images/DNSnacks.jpg" th:src="@{/images/DNSnacks.jpg}" alt="menu" width="35%" height="600">
     <img src="/static/images/DNBeverages.jpg" th:src="@{/images/DNBeverages.jpg}" alt="menu" width="25%" height="300">
+
+<h2>Menu</h2>
+<div class="scroll">
+    Baby Carrots
+    Whole Apple, Orange, or Banana
+    Fruit Cup
+    Fresh Seasonal/Specialty Fruit
+    Fresh Apple Slices
+    Dried Cranberries or dried Fruit Blend
+    String Cheese or Cheese Cubes
+    Cheez-It Crackers
+    Freshly Baked Cookie
+    Granola Bar
+    Pop-Tart
+    Cereal Bar
+    Baked or Reduced Fat Chips
+    Brownie
+    Mini Chocolate Chip Cookies
+    Soft Pretzel
+    Low Fat Ice Cream
+    Bagel with Light Cream Cheese
+    Pirate's Booty Corn Puffs
+    Crumb Square
+    Rice Krispies Treat
+    Banana Bread
+    Cinnamon Roll
+    Tornado (chicken or beef)
+    Soft Pretzel with Nacho Cheese Sauce
+    "Nada" Pocket
+    Yogurt Parfait
+</div>
+
+
+
     <table>
         <tr>
             <th>Fruits/Vegetables</th>
@@ -117,5 +172,15 @@ unsure about anything for layout, nobody collaborating :(
         top:1%;
         right: 3%;
         position: absolute;
+    }
+
+    div.scroll {
+        background-color: gray;
+        width: 200px;
+        height: 100px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        padding: 20px;
     }
 </style>
