@@ -34,14 +34,18 @@ unsure about anything for layout, nobody collaborating :(
 </head>
 <body>
 <!-- gotta put the authors somewhere-->
+<div>
+    <img id="picture" src="/static/images/flower.jpg" th:src="@{/images/pusdlogo.png}" alt="menu" width="120px" height="120px" >
+</div>
+    <!--<div>
 <p class="format" id="special">Devs: </p>
     <p class="format" >Harry Li</p>
     <p class="format">Devam Shrivestava </p>
     <p class="format">Yajat Yadav</p>
     <p class="format">Kyle Myint </p>
    <p  class="format"> <a href="/about" style="text-decoration: none; color: black;">Flora Yuan</a></p>
-    <a href="/order"><button class="order1" id="position"> order</button></a>
-
+    <a href="/order"><button class="order1" id="position"> Order</button></a>
+</div>-->
 <!--this for the logo and name of website-->
 <div id ="gradient" >
 
@@ -50,20 +54,29 @@ unsure about anything for layout, nobody collaborating :(
 
 </div>
 <!--menu stuff -->
-<table style="width: 50%; position:absolute; top:450px;" >
+<table style="width: 100%; position:absolute; top:450px;" >
     <tr >
+        <td class="size">
+            <img class="center" src="/static/images/flower.jpg" th:src="@{/images/Sec_Lunch_September_2021.jpg}" alt="menu" width="90%" height="auto" >
+        </td>
         <td>
-            <img class="center" src="/static/images/flower.jpg" th:src="@{/images/Sec_Lunch_September_2021.jpg}" alt="menu" width="100%" height="auto" >
+
         </td>
     </tr>
     <tr >
+        <td class="size">
+            <img class="center" src="/static/images/DNSnacks.jpg" th:src="@{/images/DNSnacks.jpg}" alt="menu" width="90%" height="auto">
+        </td>
         <td>
-            <img class="center" src="/static/images/DNSnacks.jpg" th:src="@{/images/DNSnacks.jpg}" alt="menu" width="100%" height="auto">
+
         </td>
     </tr>
     <tr >
+        <td class="size">
+            <img class="center" src="/static/images/DNBeverages.jpg" th:src="@{/images/DNBeverages.jpg}" alt="menu" width="90%" height="auto">
+        </td>
         <td>
-            <img class="center" src="/static/images/DNBeverages.jpg" th:src="@{/images/DNBeverages.jpg}" alt="menu" width="100%" height="auto">
+
         </td>
     </tr>
 </table>
@@ -73,6 +86,17 @@ unsure about anything for layout, nobody collaborating :(
 </html>
 
 <style>
+    #picture{
+        top:1%;
+        left:3%;
+        position:absolute;
+    }
+    .size{
+        width:50%;
+        padding-right:5%;
+        padding-left:5%;
+
+    }
     body{
         overflow-x:hidden;
     }
@@ -85,6 +109,7 @@ unsure about anything for layout, nobody collaborating :(
         position:absolute;
         width: 101%;
         height:300px;
+        top:140px;
     }
     .title{
         text-align: center;
@@ -94,6 +119,7 @@ unsure about anything for layout, nobody collaborating :(
         height: 250px;
 
     }
+    /*
     .order1{
         background-color: darkgray;
         border: none;
@@ -106,8 +132,11 @@ unsure about anything for layout, nobody collaborating :(
         margin: 4px 2px;
         cursor: pointer;
         background-color:gray;
+        border-radius: 12px;
     }
-
+    .order1:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
 
     .format {
         line-height:5px;
@@ -122,4 +151,5 @@ unsure about anything for layout, nobody collaborating :(
         right: 3%;
         position: absolute;
     }
+    */
 </style>
