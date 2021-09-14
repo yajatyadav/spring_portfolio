@@ -53,7 +53,10 @@
             </select>
         </div>
         <div class="col">
-             $TOTAL_COST
+            <p id="total_cost">
+
+            </p>
+
         </div>
     </div>
 
@@ -95,17 +98,34 @@
 
 </div>
 
-<!-- Optional JavaScript -->
+
+<script type = "text/javascript">
+    class food{
+        constructor(quantity, cost) {
+            this.quantity=quantity;
+            this.cost=cost;
+        }
+
+        TotalCost(){
+            return this.quantity * this.cost;
+
+
+        }
+    }
+
+    let pizza = new food(10, 5);
+
+    pizza.TotalCost();
 
 
 
+</script>
 
 
 
-
-
-
-
+<script>
+    document.getElementbyId("total_cost").innerHTML = "Hello";
+</script>
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS-->

@@ -3,12 +3,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-//@Controller
-//public class Binary_Controller {
-//    @GetMapping("/binary")
- //   public String binary(@RequestParam(name = "name", required = false, defaultValue = "x") String name, Model model) {
-//        model.addAttribute("bits", changer);
-//        return "binary";
-//    }
+
+@Controller
+public class Binary_Controller {
+    @GetMapping("/binary")
+    public String binary(@RequestParam(name = "name", required = false, defaultValue = "x") String name,  String changer, Model model) {
+        model.addAttribute("bits", 6);
+
+        return "binary";
+    }
 
 }
