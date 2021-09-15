@@ -14,79 +14,44 @@
 
 
 <h1> Food Ordering Service</h1>
-<div class="container">
-    <div class="row pt-5">
-        <div class="col">
-            Food
-        </div>
-        <div class="col">
-            Price
-        </div>
-        <div class="col">
-            Select
-        </div>
-        <div class="col">
-            Total Price
-        </div>
-    </div>
+<table>
 
-    <div class="row pt-5">
-        <div class="col">
-            <img src="/static/images/pizza.jpg" th:src="@{/images/pizza.jpg}" style="width:200px;height:200px;">
-        </div>
-        <div class="col">
-            Pizza Slice: $3.00
-        </div>
-        <div class="col">
+    <tr>
+        <th>Food</th>
+        <th>Price</th>
+        <th>Select</th>
+        <th>Total Price</th>
+    </tr>
+    <tr>
+        <th><img src="/static/images/pizza.jpg" th:src="@{/images/pizza.jpg}" style="width:200px;height:200px;"></th>
+        <th>Pizza Slice: $3.00</th>
+        <th>
             <select name="Quantity" id="Quantity_pizza" type="number">
-
                 <option selected="selected">Quantity </option>
-
                 <option value="1">1</option>
-
                 <option value="2">2</option>
-
                 <option value="3">3</option>
-
                 <option value="4">4</option>
-
             </select>
-        </div>
-        <div class="col">
-             $TOTAL_COST
-        </div>
-    </div>
+        </th>
+        <th>$TOTAL_COST</th>
+    </tr>
+    <tr>
+        <th><img src="/static/images/milk.jpeg" th:src="@{/images/milk.jpeg}" style="width:200px;height:200px;"></th>
+        <th>Milk: $0.75</th>
+        <th>Select2</th>
+        <th>.</th>
+    </tr>
+    <tr>
+        <th><img src="/static/images/burrito.jpg" th:src="@{/images/burrito.jpg}" style="width:200px;height:200px;"></th>
+        <th>Burrito: $2.50</th>
+        <th>Select3</th>
+        <th><button id="checkout_button">Checkout</button></th>
+    </tr>
 
-    <div class="row pt-5">
-        <div class="col">
-            <img src="/static/images/milk.jpeg" th:src="@{/images/milk.jpeg}" style="width:200px;height:200px;">
-        </div>
-        <div class="col">
-            Milk: $0.75
-        </div>
-        <div class="col">
+</table>
 
-            Select2
-        </div>
-        <div class="col">
 
-        </div>
-
-    </div>
-
-    <div class="row pt-5">
-        <div class="col">
-            <img src="/static/images/burrito.jpg" th:src="@{/images/burrito.jpg}" style="width:200px;height:200px;">
-        </div>
-        <div class="col">
-            Burrito: $2.50
-        </div>
-        <div class="col">
-            Select3
-        </div>
-        <div class="col">
-            <button id="checkout_button">Checkout</button>
-        </div>
 
     </div>
 
