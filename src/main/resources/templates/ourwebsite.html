@@ -2,6 +2,8 @@
 
 <meta charset="UTF-8">
 <html lang ="en">
+
+<head>
 <!--
 Name:
 Website layout:
@@ -25,130 +27,144 @@ contributers          contact info?    shopping cart    |
 ?* = extra unsure about this
 unsure about anything for layout, nobody collaborating :(
 -->
-<head>
 
 
 
-
-    .format {
-        line-height:5px;
-        font-size: 15px;
-        font-family: Sans-Serif;
-    }
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-    }
-
-
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #dddddd;
-    }
-</style>
 </head>
+
 <body>
-<!-- gotta put the authors somewhere-->
-<p class="format" id="special">Devs: </p>
-    <p class="format" >Harry Li</p>
-    <p class="format">Devam Shrivestava </p>
-    <p class="format">Yajat Yadav</p>
-    <p class="format">Kyle Myint </p>
-   <p  class="format"> <a href="/about" style="text-decoration: none; color: black;">Flora Yuan</a></p>
-    <a href="/order"><button class="order1" id="position"> order</button></a>
 
-<!--this for the logo and name of website-->
-<table id ="gradient"  style="width:100%">
-    <tr>
-        <th class ="title" style="height:250px">Del Norte Food Ordering Service</th>
-    </tr>
-
-<!--menu stuff -->
-</table>
+<!-- nav bar stuff-->
+<div>
+    <img id="picture" src="/static/images/flower.jpg" th:src="@{/images/pusdlogo.png}" alt="menu" width="120px" height="120px" >
+    <a href="/brids"><button class="format">Help</button></a>
+    <a href="/order"><button class="order1" id="position"> Order</button></a>
 
 
-    <img src="/static/images/flower.jpg" th:src="@{/images/Sec_Lunch_September_2021.jpg}" alt="menu" width="50%" height="600"><br>
-    <img src="/static/images/DNSnacks.jpg" th:src="@{/images/DNSnacks.jpg}" alt="menu" width="35%" height="600">
-    <img src="/static/images/DNBeverages.jpg" th:src="@{/images/DNBeverages.jpg}" alt="menu" width="25%" height="300">
+    <!--create this about us page later-->
+    <a href="/aboutus"><button class="order1" id="position2"> About Us</button></a>
+    <!--what other buttons should we add
+        gimme gimme suggestions-->
 
-<h2>Menu</h2>
-<div class="scroll">
-    Baby Carrots <br>
-    Whole Apple, Orange, or Banana <br>
-    Fruit Cup <br>
-    Fresh Seasonal/Specialty Fruit <br>
-    Fresh Apple Slices <br>
-    Dried Cranberries or dried Fruit Blend <br>
-    String Cheese or Cheese Cubes <br>
-    Cheez-It Crackers <br>
-    Freshly Baked Cookie <br>
-    Granola Bar <br>
-    Pop-Tart <br>
-    Cereal Bar <br>
-    Baked or Reduced Fat Chips <br>
-    Brownie <br>
-    Mini Chocolate Chip Cookies <br>
-    Soft Pretzel <br>
-    Low Fat Ice Cream <br>
-    Bagel with Light Cream Cheese <br>
-    Pirate's Booty Corn Puffs <br>
-    Crumb Square <br>
-    Rice Krispies Treat <br>
-    Banana Bread <br>
-    Cinnamon Roll <br>
-    Tornado (chicken or beef) <br>
-    Soft Pretzel with Nacho Cheese Sauce <br>
-    "Nada" Pocket <br>
-    Yogurt Parfait <br>
 </div>
 
+<!--this for the logo and name of website-->
+<div id ="gradient" >
+        <p class ="title" >Del Norte Food Ordering Service</p>
+</div>
 
+<!--menu stuff -->
+<table style="width: 100%; position:absolute; top:450px;" >
+    <tr >
+        <td class="size">
+            <img class="center" src="/static/images/flower.jpg" th:src="@{/images/Sec_Lunch_September_2021.jpg}" alt="menu" width="90%" height="auto" >
+        </td>
+        <td>
 
-    <table>
-        <tr>
-            <th>Fruits/Vegetables</th>
-            <th></th>
-            <th>Whole Apple, Orange, or Banana - $0.50</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-        <tr>
-            <th>09/20: Teriyaki Chicken with Chow Mein Noodles</th>
-            <th>Supreme Nachos</th>
-            <th>09/01 & 09/22: Meatball Sub with Mozzarella Cheese<br>
-                09/08 & 09/29: Beef Hot Dog<br>
-                09/15: Corn Dog<br>
-            <th>
-            </th>>
-        </tr>
-    </table>
+        </td>
+    </tr>
+    <tr >
+        <td class="size">
+            <img class="center" src="/static/images/DNSnacks.jpg" th:src="@{/images/DNSnacks.jpg}" alt="menu" width="90%" height="auto">
+        </td>
+        <td>
 
+        </td>
+    </tr>
+    <tr >
+        <td class="size">
+            <img class="center" src="/static/images/DNBeverages.jpg" th:src="@{/images/DNBeverages.jpg}" alt="menu" width="90%" height="auto">
+        </td>
+        <td>
 
+        </td>
+    </tr>
+</table>
+
+<!--slideshow of quotes-->
+<div class="slideshow-container" id="position4">
+    <div class="mySlides fade">
+        <p>"I generally don't eat school food cuz I don't enjoy. I think its kinda gross" -Mr.Ryan Moghaddas, GM and headcoach of Venus Hoops</p>
+     </div>
+    <div class="mySlides fade">
+        <p>"school foods alright. Its free but its really disgusting and unhealthy so..."-Mr.Rohan Koshi, the bum who can't hoop</p>
+    </div>
+    <div class="mySlides fade">
+        <p>"School food? Its pretty decent. I get like only pizzas though so thats all I know"-Mr. Rohan Nallapati, 110 on the freeway </p>
+    </div>
+    <div class="mySlides fade">
+        <p>"Its not that great. It kinda sucks" - Justin Li, Del Norte D1 Men's Soccer player, committed to Miramar</p>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<!-- The dots/circles -->
+<div id="position5"style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
 
 </body>
 
 </html>
 
 <style>
+    #position4{
+        top:2000px;
+        position:absolute;
+    }
+    #position5{
+        top:2100px;
+        position:absolute;
+    }
+    #picture{
+        top:1%;
+        left:3%;
+        position:absolute;
+    }
+    .size{
+        width:50%;
+        padding-right:5%;
+        padding-left:5%;
+
+    }
+    body{
+        overflow-x:hidden;
+    }
+    .center{
+        margin:auto;
+        text-align:center;
+    }
     #gradient{
         background-image: linear-gradient(170deg,#000080,#2ECC71);
+        position:absolute;
+        width: 101%;
+        height:300px;
+        top:140px;
     }
     .title{
         text-align: center;
         font-size: 85px;
         font-family: "Monotype Corsiva";
-        color: #B69F5F
+        color: #B69F5F;
+        height: 250px;
+
     }
+    #position{
+          top:5%;
+          left:16%;
+          position: absolute;
+      }
+
     .order1{
-        background-color: darkgray;
-        border: none;
-        color: white;
+        transition-duration:0.0s;
+        background-color: white;
+        border-style: solid;
+        border-color:black;
+        color: black;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
@@ -156,33 +172,153 @@ unsure about anything for layout, nobody collaborating :(
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
-        background-color:blue;
+        border-radius: 12px;
+
+    }
+    .order1:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color:darkgray;
+        color:white;
+        border:none;
+    }
+    #position2{
+        top:5%;
+        left:25%;
+        position:absolute;
+    }
+ .format{
+     background-color:white;
+     border:none;
+     text-decoration:none;
+     font-size:3px;
+     color:white;
+     top:0%;
+     right:0%;
+     position:absolute;
+     text-align:center;
+ }
+    * {box-sizing:border-box}
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
     }
 
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
 
-    .format {
-        line-height:5px;
-        font-size: 15px;
-        font-family: Sans-Serif;
-    }
-    #special{
-        font-weight: bold;
-    }
-    #position{
-        top:1%;
-        right: 3%;
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
         position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
     }
 
-    div.scroll {
-        background-color: #9ac4ff;
-        width: 600px;
-        height: 300px;
-        overflow-x: hidden;
-        overflow-y: auto;
-        text-align: center;
-        padding: 20px;
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
         font-size: 15px;
-        font-family: Sans-Serif;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
     }
 </style>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}
+</script>
