@@ -81,7 +81,7 @@ unsure about anything for layout, nobody collaborating :(
     </tr>
 </table>
 
-
+<!--slideshow of quotes-->
 <div class="slideshow-container" id="position4">
     <div class="mySlides fade">
         <p>"I generally don't eat school food cuz I don't enjoy. I think its kinda gross" -Mr.Ryan Moghaddas, GM and headcoach of Venus Hoops</p>
@@ -97,7 +97,16 @@ unsure about anything for layout, nobody collaborating :(
     </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 </div>
+<!-- The dots/circles -->
+<div id="position5"style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
 </body>
 
 </html>
@@ -105,6 +114,10 @@ unsure about anything for layout, nobody collaborating :(
 <style>
     #position4{
         top:2000px;
+        position:absolute;
+    }
+    #position5{
+        top:2100px;
         position:absolute;
     }
     #picture{
