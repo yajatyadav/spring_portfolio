@@ -39,13 +39,29 @@
     <tr>
         <th><img src="/static/images/milk.jpeg" th:src="@{/images/milk.jpeg}" style="width:200px;height:200px;"></th>
         <th>Milk: $0.75</th>
-        <th>Select2</th>
-        <th>.</th>
+        <th>
+            <select name="Quantity" id="Quantity_milk" type="number">
+                <option selected="selected">Quantity </option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </th>
+
     </tr>
     <tr>
         <th><img src="/static/images/burrito.jpg" th:src="@{/images/burrito.jpg}" style="width:200px;height:200px;"></th>
-        <th>Burrito: $2.50</th>
-        <th>Select3</th>
+        <th id="burrito_cost">Burrito: $2.50</th>
+        <th>
+            <select name="Quantity" id="Quantity_burrito" type="number">
+                <option selected="selected">Quantity </option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </th>
         <th><button id="checkout_button">Checkout</button></th>
     </tr>
 
@@ -53,7 +69,7 @@
 
 
 
-    </div>
+</div>
 
 
 
@@ -68,8 +84,8 @@
             this.cost=cost;
         }
 
-        TotalCost(){
-            return this.quantity * this.cost;
+         TotalCost(){
+            return (this.quantity * this.cost);
 
 
         }
@@ -85,8 +101,8 @@
 
 
 
-<script>
-    document.getElementbyId("total_cost").innerHTML = "Hello";
+<script type = "text/javascript">
+    document.getElementbyId("burrito_cost").innerHTML = "Hello";
 </script>
 
 
