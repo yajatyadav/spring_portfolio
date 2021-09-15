@@ -12,11 +12,21 @@
 </head>
 <body>
 
+<style>
+
+    th, tr {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+</style>
 
 <h1> Food Ordering Service</h1>
 <table>
 
-    <tr>
+    <tr class="odd" bgcolor="#808080">
         <th>Food</th>
         <th>Price</th>
         <th>Select</th>
@@ -36,7 +46,7 @@
         </th>
         <th>$TOTAL_COST</th>
     </tr>
-    <tr>
+    <tr class="odd" bgcolor="#808080">
         <th><img src="/static/images/milk.jpeg" th:src="@{/images/milk.jpeg}" style="width:200px;height:200px;"></th>
         <th>Milk: $0.75</th>
         <th>Select2</th>
