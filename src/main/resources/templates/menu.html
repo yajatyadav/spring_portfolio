@@ -44,7 +44,7 @@
                 <option value="4">4</option>
             </select>
         </th>
-        <th>$TOTAL_COST</th>
+        <th id="total_cost">$TOTAL_COST</th>
     </tr>
     <tr class="odd" bgcolor="#808080">
         <th><img src="/static/images/milk.jpeg" th:src="@{/images/milk.jpeg}" style="width:200px;height:200px;"></th>
@@ -70,10 +70,10 @@
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
-                <option value="4">4</option>
+                <option>4</option>
             </select>
         </th>
-        <th><button id="checkout_button">Checkout</button></th>
+        <th><button id="checkout_button" onclick = get_cost(1,2,3)>Checkout</button></th>
     </tr>
 
 </table>
@@ -89,10 +89,11 @@
 
 
 <script type = "text/javascript">
+
     class food{
         constructor(quantity, cost) {
-            this.quantity=quantity;
-            this.cost=cost;
+            this.quantity = quantity;
+            this.cost = cost;
         }
 
          TotalCost(){
@@ -102,17 +103,29 @@
         }
     }
 
-    let pizza = new food(10, 5);
+    document.getElementById("checkout_button").onclick = function(){
+        let pizza = new food(2, 3);
+        let milk = new food(3, 0.75);
+        let burrito = new food(1, 2.5);
 
-    pizza.TotalCost();
+        var total_cost = pizza.TotalCost() + milk.TotalCost() + burrito.TotalCost();
+
+        alert(total_cost);
+    };
+
+    // let pizza = new food(parseInt(document.getElementById("Quantity_pizza").value), 3.00);
+    // let burrito = new food(parseInt(document.getElementById("Quantity_burrito").value), 2.50);
+    // let milk = new food(parseInt(document.getElementById("Quantity_milk").options[document.getElementById("Quantity_milk").selectedIndex].value), 0.75)
+    // var milk_quantity = document.getElementById("Quantity_milk");
+    // var milk_selected_quantity = milk_quantity.selectedIndex;
 
 
-
-</script>
+    </script>
 
 
 <script type = "text/javascript">
-    document.getElementbyId("burrito_cost").innerHTML = "Hello";
+    document.getElementById("total_cost").innerHTML = milk.TotalCost().toString();
+        // (pizza.TotalCost() + burrito.TotalCost() + milk.TotalCost()).toString();
 </script>
 
 
