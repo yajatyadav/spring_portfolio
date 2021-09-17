@@ -97,7 +97,7 @@
         }
 
         function bit_changer(){
-        return parseInt(document.getElementById("user_bit").value);
+            return parseInt(document.getElementById("user_bit").value);
         }
 
         var user_bits = bit_changer();
@@ -147,20 +147,17 @@
                         <td id="decimal">0</td>
                         <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
 
-<!--                        <td><input name="bits" id="user_bit" placeholder="Enter # of bits">-->
-<!--                        <td> <button type = "button" id="change_bit" onclick = "bit_changer()">Submit </button></td>-->
+                        <!--                        <td><input name="bits" id="user_bit" placeholder="Enter # of bits">-->
+                        <!--                        <td> <button type = "button" id="change_bit" onclick = "bit_changer()">Submit </button></td>-->
 
                         <td>
 
-                            <form action="/binary" method="GET" id="bitForm">
-                                <div>
-                                    <label for="bitField">Enter a bit value</label>
-                                    <input name="user_bits" id="bitField">
-                                    <button>Submit</button>
-                                </div>
+                            <form action="hello">
+                                Number of Bits : <input type="number" th:value= "8" th:name="user_bits"/> <br><br>
+                                <input type="submit" name="submit">
+
+                                <p> The number is: <span th:text="${number_tester}"> hello, im here</span> </p>
                             </form>
-
-
                         </td>
 
 
