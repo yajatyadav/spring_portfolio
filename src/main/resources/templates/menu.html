@@ -40,8 +40,7 @@
                 <option selected="selected">Quantity </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+
             </select>
         </th>
         <th id="total_cost">$TOTAL_COST</th>
@@ -104,17 +103,23 @@
     }
 
     document.getElementById("checkout_button").onclick = function(){
-
-        let pizza = new food(parseInt(document.getElementById("Quantity_pizza").options[document.getElementById("Quantity_pizza").selectedIndex].value), 3.00);
-        let milk = new food(parseInt(document.getElementById("Quantity_milk").options[document.getElementById("Quantity_milk").selectedIndex].value), 0.75);
-        let burrito = new food(parseInt(document.getElementById("Quantity_burrito").options[document.getElementById("Quantity_burrito").selectedIndex].value), 2.50);
+        let pizza = new food(2, 3);
+        let milk = new food(3, 0.75);
+        let burrito = new food(1, 2.5);
 
         var total_cost = pizza.TotalCost() + milk.TotalCost() + burrito.TotalCost();
 
         document.getElementById("total_cost").innerHTML = total_cost;
     };
 
+    // let pizza = new food(parseInt(document.getElementById("Quantity_pizza").value), 3.00);
+    // let burrito = new food(parseInt(document.getElementById("Quantity_burrito").value), 2.50);
+    // let milk = new food(parseInt(document.getElementById("Quantity_milk").options[document.getElementById("Quantity_milk").selectedIndex].value), 0.75)
+    // var milk_quantity = document.getElementById("Quantity_milk");
+    // var milk_selected_quantity = milk_quantity.selectedIndex;
 
+
+    </script>
 
     </script>
 
