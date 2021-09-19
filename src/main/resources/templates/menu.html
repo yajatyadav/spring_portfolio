@@ -4,28 +4,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <title>Food Ordering Service</title>
 </head>
 <body>
-
 <style>
-
     th, tr {
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 40px;
         padding-right: 40px;
     }
-
 </style>
-
 <h1> Food Ordering Service</h1>
 <table>
-
     <tr class="odd" bgcolor="#808080">
         <th>Food</th>
         <th>Price</th>
@@ -40,7 +33,8 @@
                 <option selected="selected">Quantity </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
-
+                <option value="3">3</option>
+                <option value="4">4</option>
             </select>
         </th>
         <th id="total_cost">$TOTAL_COST</th>
@@ -53,11 +47,11 @@
                 <option selected="selected">Quantity </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
-
+                <option value="3">3</option>
+                <option value="4">4</option>
             </select>
         </th>
         <th> </th>
-
     </tr>
     <tr>
         <th><img src="/static/images/burrito.jpg" th:src="@{/images/burrito.jpg}" style="width:200px;height:200px;"></th>
@@ -67,64 +61,48 @@
                 <option selected="selected">Quantity </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
-
+                <option value="3">3</option>
+                <option>4</option>
             </select>
         </th>
         <th><button id="checkout_button" onclick = get_cost(1,2,3)>Checkout</button></th>
     </tr>
-
 </table>
-
-
-
 </div>
-
-
-
-
 </div>
-
-
 <script type = "text/javascript">
-
     class food{
         constructor(quantity, cost) {
             this.quantity = quantity;
             this.cost = cost;
         }
-
          TotalCost(){
             return (this.quantity * this.cost);
-
-
         }
     }
 
     document.getElementById("checkout_button").onclick = function(){
-        let pizza = new food(2, 3);
-        let milk = new food(3, 0.75);
-        let burrito = new food(1, 2.5);
+
+
+        let pizza = new food(parseInt(document.getElementById("Quantity_pizza").options[document.getElementById("Quantity_pizza").selectedIndex].value), 3.00);
+        let milk = new food(parseInt(document.getElementById("Quantity_milk").options[document.getElementById("Quantity_milk").selectedIndex].value), 0.75);
+        let burrito = new food(parseInt(document.getElementById("Quantity_burrito").options[document.getElementById("Quantity_burrito").selectedIndex].value), 2.50);
 
         var total_cost = pizza.TotalCost() + milk.TotalCost() + burrito.TotalCost();
+
 
         document.getElementById("total_cost").innerHTML = total_cost;
     };
 
-    // let pizza = new food(parseInt(document.getElementById("Quantity_pizza").value), 3.00);
-    // let burrito = new food(parseInt(document.getElementById("Quantity_burrito").value), 2.50);
-    // let milk = new food(parseInt(document.getElementById("Quantity_milk").options[document.getElementById("Quantity_milk").selectedIndex].value), 0.75)
-    // var milk_quantity = document.getElementById("Quantity_milk");
-    // var milk_selected_quantity = milk_quantity.selectedIndex;
+
 
 
     </script>
 
-    </script>
+
+
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
