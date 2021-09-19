@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<!-- <head> -->
+ <head>
 <div layout:fragment="metadata" th:with="bits=${bits}" th:remove="tag">
 
     <title>Binary page</title>
@@ -96,11 +96,9 @@
             }
         }
 
-        function bit_changer(){
-        return parseInt(document.getElementById("user_bit").value);
-        }
 
-        var user_bits = bit_changer();
+
+
 
         // $.ajax({
         //     type : "POST",
@@ -120,11 +118,45 @@
         // });
     </script>
 
+    <script>
+
+        function changecolor() {
+            // let hex_code = parseInt(binary, 2).toString(16)
+
+
+            // function cutHex(h) {
+            //     return (h.charAt(0) == "#") ? h.substring(1, 7) : h
+            // }
+            //
+            // function hexToR(h) {
+            //     return parseInt((cutHex(h)).substring(0, 2), 16)
+            // }
+            //
+            // function hexToG(h) {
+            //     return parseInt((cutHex(h)).substring(2, 4), 16)
+            // }
+            //
+            // function hexToB(h) {
+            //     return parseInt((cutHex(h)).substring(4, 6), 16)
+            // }
+            //
+            // R = hexToR(hex_code);
+            // G = hexToG(hex_code);
+            // B = hexToB(hex_code);
+            //
+            // Color
+            // mycolor = new Color(R, G, B);
+
+            document.body.style.backgroundColor = "FF0000";
+        }
+
+    </script>
+
 </div>
-<!-- </head> -->
+ </head>
 
 
-<!-- <body> -->
+ <body>
 <div layout:fragment="content" th:with="bits=${bits}" th:remove="tag">
     <h1 class="text-center">Binary Math with Conversions</h1>
     <div class="container">
@@ -162,6 +194,53 @@
                             </form>
 
 
+
+                            <input type="button" id="colorButton" value="Click to Change Color"
+                                   onclick="hexToRgb()">
+                            <script type="text/javascript">
+                                function hexToRgb(){
+
+                                    const binary_2 = getBits();
+                                    let h = parseInt(binary_2, 2).toString(16)
+
+                                    let r = parseInt(h.substring(0,2), 16).toString();
+                                        let g = parseInt(h.substring(2,4), 16).toString();
+                                        let b = parseInt(h.substring(4,5), 16).toString();
+
+
+
+                                        document.body.style.backgroundColor = "rgb("+ r + "," + g + "," + b + ")";
+
+
+
+                                    }
+
+
+
+                                    // function hexToR(h) {
+                                    //     return (hex_code.substring(0, 2), 16)
+                                    // }
+                                    //
+                                    // function hexToG(h) {
+                                    //     return (hex_code.substring(2, 4), 16)
+                                    // }
+                                    //
+                                    // function hexToB(h) {
+                                    //     return (hex_code.substring(4, 6), 16)
+                                    // }
+                                    //
+                                    // let R = hexToR(hex_code);
+                                    // let G = hexToG(hex_code);
+                                    // let B = hexToB(hex_code);
+                                    //
+                                    // let rgb = hexToRgb(hex_code)
+                                    // document.body.style.backgroundColor = "rgb(" + R + "," + G + "," + B + ")"
+
+                            </script>
+
+<!--                            <button type="button" id="colorchanger" onclick="changecolor()"> Click to change color</button>-->
+
+
                         </td>
 
 
@@ -193,5 +272,22 @@
         </div>
     </div>
 </div>
-<!-- </body> -->
+ </body>
+
+<style>
+    body {background-color: #72c0fc;}
+    .p1 {
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .p2 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .p3 {
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+</style>
+
+
 </html>
