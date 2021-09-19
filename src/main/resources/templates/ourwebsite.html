@@ -83,6 +83,56 @@ unsure about anything for layout, nobody collaborating :(
 </table>-->
 
 <!--slideshow stuff-->
+<!--<div class="slideshow-container" id="position6">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img class="size3" src="/static/images/pizza.jpg" th:src="@{/images/pizza.jpg}">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img class="size3" src="/static/images/milk.jpeg" th:src="@{/images/milk.jpeg}">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img class="size3" src="/static/images/burrito.jpg" th:src="@{/images/burrito.jpg}">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div id="position7" style=text-align:center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
+</script>-->
+
 
 <div class="slideshow-container" id="position6">
 
@@ -144,6 +194,12 @@ unsure about anything for layout, nobody collaborating :(
         dots[slideIndex-1].className += " active";
     }
 </script>
+
+<!--images + text-->
+<img src="/static/images/pizza.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="800px" width="1000px" id="position8">
+<div style="text-align:center" id="position9"> With cheese made from the milk of pule donkeys, our pizza has been widely recognized as one of the finest delicacies in all of school lunches.</div>
+
+
 <!--slideshow of quotes-->
 <!--
 
@@ -160,6 +216,21 @@ unsure about anything for layout, nobody collaborating :(
 </html>
 
 <style>
+    #position9{
+        top:1650px;
+        right:200px;
+        position:absolute;
+        background-color: #72c0fc;
+        width: 500px;
+        border: 50px #2ECC71;
+        padding: 50px;
+        margin: 20px;
+    }
+    #position8{
+        top:1350px;
+        left:100px;
+        position:absolute;
+    }
     #position7{
         top:1125px;
         right:500px;
