@@ -197,7 +197,11 @@ unsure about anything for layout, nobody collaborating :(
 
 <!--images + text-->
 <img src="/static/images/pizza.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="800px" width="1000px" id="position8">
-<div style="text-align:center" id="position9"> With cheese made from the milk of pule donkeys, our pizza has been widely recognized as one of the finest delicacies in all of school lunches.</div>
+<div style="text-align:center" id="position9">
+    <h1>Want to Skip Lunch Lines?</h1>
+    <h3>Click below to order from the lunch menu in advance</h3>
+    <a href="/order"><button class="order1">Order</button></a>
+</div>
 
 
 <!--slideshow of quotes-->
@@ -218,11 +222,11 @@ unsure about anything for layout, nobody collaborating :(
 <style>
     #position9{
         top:450px;
-        left:110px;
+        left:120px;
         position:absolute;
         background-color: #72c0fc;
         width: 500px;
-        border: 50px #2ECC71;
+        border: 100px #2ECC71;
         padding: 50px;
         margin: 20px;
     }
@@ -230,6 +234,9 @@ unsure about anything for layout, nobody collaborating :(
         top:1350px;
         left:100px;
         position:absolute;
+        background-color: #000080;
+        border:none;
+        padding:50px 50px;
     }
     #position7{
         top:1125px;
