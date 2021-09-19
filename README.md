@@ -18,7 +18,7 @@ Kyle Myint | [Unit 4/Journal](https://docs.google.com/document/d/1CxsEdfdUGzKdkg
 Harry Li | [Document](https://docs.google.com/document/d/1WWKJCEe1gDjJTDdgrik0eljGQHCxzATV62_QvdXGlVg/edit) | 5 / 5 | 
 Devam Shrivastava | [Document](https://docs.google.com/document/d/1lUQ_udRR1pJ6LzKUM_6pWJmPsrRB-Fv0lp9Uvap1j5k/edit) | 5 / 5 |  
 Flora Yuan | [Unit 4/Journal](https://docs.google.com/document/d/1chgaTpbgRCmXZyCK4A7hwueresrFDNeg2BjiKBzA3XM/edit?usp=sharing) | 5 / 5 |
-Yajat Yadav | [Document](https://docs.google.com/document/d/18WtqhehIF7iWMmhNLunfDmvwQxE_vz1laiWYDu0a9hs/edit?usp=sharing)| 5 / 5 | 
+Yajat Yadav | [Document](https://docs.google.com/document/d/1CxsEdfdUGzKdkgkaZQxlAywKfanPuT3YYo9fy-y2DZU/edit)| 5 / 5 | 
 
 ## Completed Issues 9/13-9/17
 Issue Name             | Link | 
