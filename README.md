@@ -25,6 +25,7 @@ Issue Name             | Link |
 -------------    | -------------- | 
 Thymeleaf for Menu Table and formatting | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/29)  |
 Completed cost for menu items on menu page | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/36) |
+Main page opener + picture display | [Issue](https://github.com/yajatyadav/spring_portfolio/issues/39) |
 
 ## Prototype Check and Unit 3 9/6-9/10
 Name             | Link(s) | Score | 
