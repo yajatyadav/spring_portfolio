@@ -30,21 +30,21 @@
         <th>Pizza Slice: $3.00</th>
         <th>
             <select name="Quantity" id="Quantity_pizza" type="number">
-                <option selected="selected">Quantity </option>
+                <option selected="selected" value="0">Quantity </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
             </select>
         </th>
-        <th id="total_cost">$TOTAL_COST</th>
+        <th id="total_cost">Total Cost</th>
     </tr>
     <tr class="odd" bgcolor="#808080">
         <th><img src="/static/images/milk.jpeg" th:src="@{/images/milk.jpeg}" style="width:200px;height:200px;"></th>
         <th>Milk: $0.75</th>
         <th>
             <select name="Quantity" id="Quantity_milk" type="number">
-                <option selected="selected">Quantity </option>
+                <option selected="selected" value="0">Quantity </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -58,7 +58,7 @@
         <th id="burrito_cost">Burrito: $2.50</th>
         <th>
             <select name="Quantity" id="Quantity_burrito" type="number">
-                <option selected="selected">Quantity </option>
+                <option selected="selected" value="0">Quantity </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -89,8 +89,7 @@
         let burrito = new food(parseInt(document.getElementById("Quantity_burrito").options[document.getElementById("Quantity_burrito").selectedIndex].value), 2.50);
 
         var total_cost = pizza.TotalCost() + milk.TotalCost() + burrito.TotalCost();
-
-
+        total_cost = "$" + String(total_cost.toFixed(2));
         document.getElementById("total_cost").innerHTML = total_cost;
     };
 
