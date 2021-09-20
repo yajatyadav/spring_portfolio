@@ -136,42 +136,51 @@ unsure about anything for layout, nobody collaborating :(
 <!--
 <div class="slideshow-container2">
 
-    <div class="mySlides fade">
+    <div class="quote fade">
         <p>"I generally don't eat school food cuz I don't enjoy it. I think its kinda gross" -Mr.Ryan Moghaddas, GM and headcoach of Venus Hoops</p>
     </div>
 
-    <div class="mySlides fade">
+    <div class="quote fade">
 
         <p>"school foods alright. Its free but its really disgusting and unhealthy so..."-Mr.Rohan Koshi, the bum who can't hoop</p>
     </div>
 
-    <div class="mySlides fade">
+    <div class="quote fade">
         <p>"School food? Its pretty decent. I get like only pizzas though so thats all I know"-Mr. Rohan Nallapati, 110 on the freeway </p>
     </div>
 
-    <div class="mySlides fade">
+    <div class="quote fade">
         <p>"Its not that great. It kinda sucks" - Justin Li, Del Norte D1 Men's Soccer player, committed to Miramar</p>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div style="text-align:center" id="position7">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
     </div>
 
 </div>
 <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
+    var slideIndex1 = 1;
+    showSlides1(slideIndex1);
 
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
+    function plusSlides1(n) {
+        showSlides1(slideIndex1 += x);
     }
 
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
+    function currentSlide1(n) {
+        showSlides1(slideIndex1 = x);
     }
 
-    function showSlides(n) {
+    function showSlides1(x) {
         var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
+        var slides1 = document.getElementsByClassName("quote");
+        var dots1 = document.getElementsByClassName("dot");
+        if (n > slides1.length) {slideIndex = 1}
+        if (n < 1) {slideIndex1 = slides1.length}
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
@@ -294,7 +303,7 @@ unsure about anything for layout, nobody collaborating :(
         margin:0;
         overflow-x:hidden;
     }
-    .mySlides {display: none}
+    .mySlides, .quote {display: none}
 
 
     /* Slideshow container */
