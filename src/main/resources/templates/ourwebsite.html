@@ -23,6 +23,11 @@ contributers          contact info?    shopping cart    |
                                                         |
             food pics              quotes               |
                                                         |
+                   locations                            |
+                                                        |
+                                                        |
+     contact information                                |
+                                                        |
 --------------------------------------------------------|
 ?* = extra unsure about this
 unsure about anything for layout, nobody collaborating :(
@@ -37,10 +42,10 @@ unsure about anything for layout, nobody collaborating :(
 <!-- nav bar stuff-->
 <div>
     <img id="picture" src="/static/images/flower.jpg" th:src="@{/images/pusdlogo.png}" alt="menu" width="120px" height="120px" >
-    <a href="/brids"><button class="format">Help</button></a>
+    <a href="/help"><button class="format">Help</button></a>
     <a href="/menu"><button class="order1" id="position"> Order</button></a>
-
-
+<!--    <a><button class="order1" id="position3">Future Lunch Schedules</button></a>
+-->
     <!--create this about us page later-->
     <a href="/aboutus"><button class="order1" id="position2"> About Us</button></a>
     <!--what other buttons should we add
@@ -119,7 +124,7 @@ unsure about anything for layout, nobody collaborating :(
 </script>
 
 <!--images + text-->
-<img src="/static/images/pizza.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="800px" width="55%" id="position8">
+<img src="/static/images/yummy.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="800px" width="55%" id="position8">
 <div style="text-align:center" id="position9">
     <h1>Want to Skip Lunch Lines?</h1>
     <p style="font-family: Sans-Serif; font-size:20px;">Order in advance here to get the most convenient and smooth lunch line experiences with just the click of a button.</p>
@@ -129,14 +134,54 @@ unsure about anything for layout, nobody collaborating :(
 
 <!--slideshow of quotes-->
 <!--
+<div class="slideshow-container2">
 
-        <p>"I generally don't eat school food cuz I don't enjoy. I think its kinda gross" -Mr.Ryan Moghaddas, GM and headcoach of Venus Hoops</p>
+    <div class="mySlides fade">
+        <p>"I generally don't eat school food cuz I don't enjoy it. I think its kinda gross" -Mr.Ryan Moghaddas, GM and headcoach of Venus Hoops</p>
+    </div>
+
+    <div class="mySlides fade">
 
         <p>"school foods alright. Its free but its really disgusting and unhealthy so..."-Mr.Rohan Koshi, the bum who can't hoop</p>
+    </div>
 
+    <div class="mySlides fade">
         <p>"School food? Its pretty decent. I get like only pizzas though so thats all I know"-Mr. Rohan Nallapati, 110 on the freeway </p>
+    </div>
 
+    <div class="mySlides fade">
         <p>"Its not that great. It kinda sucks" - Justin Li, Del Norte D1 Men's Soccer player, committed to Miramar</p>
+    </div>
+
+</div>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
+</script>
 -->
 </body>
 
@@ -176,14 +221,6 @@ unsure about anything for layout, nobody collaborating :(
         border:50px solid #2ECC71;
         display:flex;
         justify-content:center;
-    }
-    #position4{
-        top:2000px;
-        position:absolute;
-    }
-    #position5{
-        top:2100px;
-        position:absolute;
     }
     #picture{
         top:1%;

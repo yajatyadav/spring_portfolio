@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 class javastuff {
-    @GetMapping("/brids")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+    @GetMapping("/help")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String Brids(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         model.addAttribute("name", name); // MODEL is passed to html
-        return "brids"; // returns HTML VIEW (greeting)
+        return "help"; // returns HTML VIEW (greeting)
     }
 }
