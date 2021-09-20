@@ -12,11 +12,11 @@ Harry Li | wiz124 | [Link](https://github.com/yajatyadav/spring_portfolio/projec
 ## Modeling Checkpoint plus Unit 5 9/20-9/24
 Name             | Link(s) | Score | 
 -------------    | -------------- | -------------- | 
-Kyle Myint | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| 5 / 5 --- 5 / 5| 
-Harry Li | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| 5 / 5 --- 5 / 5| 
-Devam Shrivastava | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| 5 / 5 --- 5 / 5|   
-Flora Yuan | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| 5 / 5 --- 5 / 5| 
-Yajat Yadav | | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| 5 / 5 --- 5 / 5| 
+Kyle Myint | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
+Harry Li | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
+Devam Shrivastava | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
+Flora Yuan | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
+Yajat Yadav | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
 
 ## Prototype Sprint End and Unit 4 9/13-9/17
 [Team Document](https://docs.google.com/document/d/1J32KU4wGS6S89PuoYip7IkE_czWwMvMnCkQFUcXugF0/edit?usp=sharing)  ---  3 / 3
