@@ -10,6 +10,8 @@ Flora Yuan | florayuan18 | [Link](https://github.com/yajatyadav/spring_portfolio
 Harry Li | wiz124 | [Link](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Awiz124)|[Link](https://github.com/yajatyadav/spring_portfolio/projects/1)|[Link](https://github.com/yajatyadav/spring_portfolio/commits?author=wiz124)|[Link](https://github.com/wiz124)|
 
 ## Modeling Checkpoint plus Unit 5 9/20-9/24
+Name             | Link(s) | Score | 
+-------------    | -------------- | -------------- | 
 Kyle Myint | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| 5 / 5 --- 5 / 5| 
 Harry Li | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| 5 / 5 --- 5 / 5| 
 Devam Shrivastava | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| 5 / 5 --- 5 / 5|   
