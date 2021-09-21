@@ -133,8 +133,8 @@ unsure about anything for layout, nobody collaborating :(
 
 
 <!--slideshow of quotes-->
-<!--
-<div class="slideshow-container2">
+
+<div class="slideshow-container2" style="text-align: center">
 
     <div class="quote fade">
         <p>"I generally don't eat school food cuz I don't enjoy it. I think its kinda gross" -Mr.Ryan Moghaddas, GM and headcoach of Venus Hoops</p>
@@ -150,16 +150,16 @@ unsure about anything for layout, nobody collaborating :(
     </div>
 
     <div class="quote fade">
-        <p>"Its not that great. It kinda sucks" - Justin Li, Del Norte D1 Men's Soccer player, committed to Miramar</p>
+        <p>"Its not that great. It kinda sucks" - Justin Li, Del Norte D1 Men's Soccer player, menace to society</p>
     </div>
 
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    <div style="text-align:center" id="position7">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
+    <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+    <div style="text-align:center" id="position0">
+        <span class="dot" onclick="currentSlide1(1)"></span>
+        <span class="dot" onclick="currentSlide1(2)"></span>
+        <span class="dot" onclick="currentSlide1(3)"></span>
+        <span class="dot" onclick="currentSlide1(4)"></span>
     </div>
 
 </div>
@@ -167,11 +167,11 @@ unsure about anything for layout, nobody collaborating :(
     var slideIndex1 = 1;
     showSlides1(slideIndex1);
 
-    function plusSlides1(n) {
+    function plusSlides1(x) {
         showSlides1(slideIndex1 += x);
     }
 
-    function currentSlide1(n) {
+    function currentSlide1(x) {
         showSlides1(slideIndex1 = x);
     }
 
@@ -179,19 +179,19 @@ unsure about anything for layout, nobody collaborating :(
         var i;
         var slides1 = document.getElementsByClassName("quote");
         var dots1 = document.getElementsByClassName("dot");
-        if (n > slides1.length) {slideIndex = 1}
-        if (n < 1) {slideIndex1 = slides1.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
+        if (x > slides1.length) {slideIndex1 = 1}
+        if (x < 1) {slideIndex1 = slides1.length}
+        for (i = 0; i < slides1.length; i++) {
+            slides1[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
+        for (i = 0; i < dots1.length; i++) {
+            dots1[i].className = dots1[i].className.replace(" active", "");
         }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
+        slides1[slideIndex1-1].style.display = "block";
+        dots1[slideIndex1-1].className += " active";
     }
 </script>
--->
+
 </body>
 
 </html>
@@ -312,9 +312,14 @@ unsure about anything for layout, nobody collaborating :(
         height:700px;
         position: absolute;
         padding:10px;
-
     }
-
+    .slideshow-container2{
+        width:45%;
+        position:absolute;
+        height:100px;
+        top:2000px;
+        right:5%;
+    }
     /* Next & previous buttons */
     .prev, .next {
         cursor: pointer;
