@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class factorial {
     @GetMapping("/factorial")
     public String factorial(@RequestParam(name = "name", required = false, defaultValue = "x") String name, Model model){
-        model.addAttribute("bits", 6);
+        model.addAttribute("name", name);
         return "factorial";
     }
 }

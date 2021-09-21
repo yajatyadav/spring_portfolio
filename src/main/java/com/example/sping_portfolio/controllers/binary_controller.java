@@ -12,20 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class binary_controller {
-    @GetMapping("/binary")    // CONTROLLER handles GET request for /yajatabout, maps it to yajatbout() and does variable bindings
+    @GetMapping("/binary")
     public String binary(@RequestParam(name="user_bits", required=false, defaultValue="8") int user_bits, Model model) {
-        // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
 
-//        String number_bits = "";
-//        if (request.getParameter("user_bits") == null){
-//            number_bits = "20";
-//        }
-//        else {
-//            number_bits = request.getParameter("user_bits");
-////                Integer.parseInt(request.getParameter("user_bits"));
-//        }
-
-//        model.addAttribute("bits", 10); // MODEL is passed to html
         model.addAttribute("bits", user_bits);
         return "binary"; // returns HTML VIEW
     }
