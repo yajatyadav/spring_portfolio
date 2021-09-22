@@ -125,15 +125,15 @@ unsure about anything for layout, nobody collaborating :(
 
 <!--images + text-->
 <img src="/static/images/yummy.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="800px" width="55%" id="position8">
-<div style="text-align:center" id="position9">
+<div style="text-align:center" id="position9" >
     <h1>Want to Skip Lunch Lines?</h1>
-    <p style="font-family: Georgia; font-size:20px;">Order in advance here to get the most convenient and smooth lunch line experiences with just the click of a button.</p>
+    <p  style="font-family: Georgia; font-size:20px;">Order in advance here to get the most convenient and smooth lunch line experiences with just the click of a button.</p>
     <a href="/menu"><button class="order1">Order Now</button></a>
 </div>
 
 
 <!--slideshow of quotes-->
-<div style="text-align:center; top:1475px;right:5%;position:absolute; width:35%;">
+<div style="text-align:center; top:1675px;right:5%;position:absolute; width:35%;">
     <h1 >Real Reviews From Really Fantastic Students</h1>
 </div>
 
@@ -200,21 +200,22 @@ unsure about anything for layout, nobody collaborating :(
 </html>
 
 <style>
+
     .dimensions{
         max-width:100%;
         max-height:100%;
     }
     #position9{
-        top:550px;
+        top:750px;
         left:6%;
         position:absolute;
         width: 500px;
-        border: 100px #2ECC71;
+        border: 100px;
         padding: 50px;
         margin: 20px;
     }
     #position8{
-        top:1100px;
+        top:1300px;
         left:2%;
         position:absolute;
         background-color: #89CFF0;
@@ -227,7 +228,7 @@ unsure about anything for layout, nobody collaborating :(
     }
     #position6{
         position:absolute;
-        top:450px;
+        top:650px;
         right:30px;
         background-color:#2ECC71;
         border:50px solid #2ECC71;
@@ -244,16 +245,16 @@ unsure about anything for layout, nobody collaborating :(
         background-image: linear-gradient(170deg,#000080,#2ECC71);
         position:absolute;
         width: 100%;
-        height:300px;
+        height:500px;
         top:140px;
+        margin:auto;
     }
     .title{
         text-align: center;
         font-size: 85px;
         font-family: "Monotype Corsiva";
         color: #B69F5F;
-        height: 250px;
-
+        line-height: 250px;
     }
     #position{
           top:5%;
@@ -305,6 +306,7 @@ unsure about anything for layout, nobody collaborating :(
         font-family: Verdana, sans-serif;
         margin:0;
         overflow-x:hidden;
+
     }
     .mySlides, .quote {display: none}
 
@@ -320,7 +322,7 @@ unsure about anything for layout, nobody collaborating :(
         width:35%;
         position:absolute;
         height:100px;
-        top:1600px;
+        top:1800px;
         right:5%;
         font-family: Georgia;
     }
@@ -379,6 +381,9 @@ unsure about anything for layout, nobody collaborating :(
         -webkit-animation-duration: 1.5s;
         animation-name: fade;
         animation-duration: 1.5s;
+/*        animation: fade ease 4s;
+        animation-iteration-count:1;
+        animation-fill-mode: forwards; */
     }
 
     @-webkit-keyframes fade {

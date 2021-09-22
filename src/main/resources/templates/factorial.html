@@ -5,27 +5,26 @@
     <title>Title</title>
 </head>
 <body>
-<form id="factorial_input">
-    <div>
+
+
         <label for="fact_input">Enter a number </label>
         <input name="user_input" id="fact_input">
-        <button onclick="factorial()">Submit</button>
-    </div>
-</form>
+        <button onclick=factorial() id="button_1">Submit</button>
 
 
-<script>
+
+<script type="text/javascript">
 
    function factorial(){
-    let num = parseInt(document.getElementById("user_input").value)
+    let num = parseInt(document.getElementById("fact_input").value)
     let output = 1
 
     while (num > 0) {
-        let output = output * num
-        num -= 1
+         output = output * num
+         num -= 1
     }
 
-    alert(parseInt(document.getElementById("user_input").value) + "! is " + output)
+    alert(parseInt(document.getElementById("fact_input").value) + "! is " + output)
 
 
 
