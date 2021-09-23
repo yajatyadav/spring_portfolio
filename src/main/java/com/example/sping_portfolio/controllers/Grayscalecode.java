@@ -1,4 +1,4 @@
-//no errors in code, just Spring compatibility issues
+//no errors in code, just Spring compatibility issues, somebody fix
 package Grayscalecode;
 import java.util.Scanner;
 import java.io.IOException;
