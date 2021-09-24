@@ -9,14 +9,14 @@ Yajat Yadav | yajatyadav | [Issues](https://github.com/yajatyadav/spring_portfol
 Flora Yuan | florayuan18 | [Issues](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://cs-a-hq.slack.com/archives/C02BVTN7Q3V/p1631288660003900) [Link](https://github.com/yajatyadav/spring_portfolio/commits?author=florayuan18) | [Link](https://github.com/florayuan18) |
 Harry Li | wiz124 | [Issues](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Awiz124)|[Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1)|[Link](https://github.com/yajatyadav/spring_portfolio/commits?author=wiz124)|[Link](https://github.com/wiz124)|
 
-## Modeling Checkpoint plus Unit 5 9/20-9/24
+## Unit 5 9/20-9/24
 Name             | Link(s) | Score | 
 -------------    | -------------- | -------------- | 
-Kyle Myint | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
-Harry Li | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
-Devam Shrivastava | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
-Flora Yuan | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
-Yajat Yadav | [Unit 5/Journal](link) --- [Modeling Checkpoint](link)| Unit 5: 5 / 5 --- Modeling: 5 / 5| 
+Kyle Myint | [Unit 5/Journal](https://docs.google.com/document/d/1CxsEdfdUGzKdkgkaZQxlAywKfanPuT3YYo9fy-y2DZU/edit?usp=sharing)| 5 / 5 | 
+Harry Li | [Unit 5/Journal](link)| 5 / 5 | 
+Devam Shrivastava | [Unit 5/Journal](link)| 5 / 5 | 
+Flora Yuan | [Unit 5/Journal](link)| 5 / 5 | 
+Yajat Yadav | [Unit 5/Journal](link)| 5 / 5 | 
 
 ## Prototype Sprint End and Unit 4 9/13-9/17
 [Team Document](https://docs.google.com/document/d/1J32KU4wGS6S89PuoYip7IkE_czWwMvMnCkQFUcXugF0/edit?usp=sharing)  ---  3 / 3
