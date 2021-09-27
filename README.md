@@ -13,7 +13,7 @@ Harry Li | wiz124 | [Issues](https://github.com/yajatyadav/spring_portfolio/proj
 Name             | Link(s) | Score | 
 -------------    | -------------- | -------------- | 
 Kyle Myint | [Unit 5/Journal](https://docs.google.com/document/d/1CxsEdfdUGzKdkgkaZQxlAywKfanPuT3YYo9fy-y2DZU/edit?usp=sharing )| 5 / 5 | 
-Harry Li | [Unit 5/Journal](https://docs.google.com/document/d/1Pl_P-ZFFEjKqAr94Al2hefqJ9ngXLBl5sHny1FB2Io8/edit)| 5 / 5 | 
+Harry Li | [Unit 5/Journal](https://docs.google.com/document/d/1Z8wut649FaYGxzvYylkW5rdL1nL5PG2Um-Ge4-RsKwo/edit)| 5 / 5 | 
 Devam Shrivastava | [Unit 5/Journal](link)| 5 / 5 | 
 Flora Yuan | [Unit 5/Journal](link)| 5 / 5 | 
 Yajat Yadav | [Unit 5/Journal](link)| 5 / 5 | 
