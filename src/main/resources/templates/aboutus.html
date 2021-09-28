@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <title>About us</title>
     <style>
+        * {box-sizing: border-box}
+        body {
+            font-family: Verdana, sans-serif;
+            margin:0;
+            overflow-x:hidden;
+
+        }
     .order1{
         transition-duration:0.0s;
          background-color: white;
@@ -26,9 +33,47 @@
       color:white;
       border:none;
     }
+    .format{
+        background-color:white;
+        border:none;
+        text-decoration:none;
+        font-size:3px;
+        color:white;
+        top:0%;
+        right:0%;
+        position:absolute;
+        text-align:center;
+    }
+    #position2{
+        top:5%;
+        left:25%;
+        position:absolute;
+    }
+    #position{
+        top:5%;
+        left:16%;
+        position: absolute;
+    }
+    #position3{
+        top:5%;
+        position:absolute;
+        left:34%;
+    }
+        #picture{
+            top:1%;
+            left:3%;
+            position:absolute;
+        }
     </style>
 </head>
 <body>
-<a href="/ourwebsite"><button class="order1">Back</button></a>
-<p>About us page, plans for future development</p>
+<!-- nav bar stuff-->
+<div>
+    <img id="picture" src="/static/images/flower.jpg" th:src="@{/images/pusdlogo.png}" alt="menu" width="120px" height="120px" >
+    <a href="/help"><button class="format">Help</button></a>
+    <a href="/menu"><button class="order1" id="position2"> Order</button></a>
+    <a href="/aboutus"><button class="order1" id="position3"> About Us</button></a>
+    <a href="/ourwebsite"><button class="order1" id="position">Home</button></a>
+</div>
+
 </body>
