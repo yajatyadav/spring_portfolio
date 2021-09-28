@@ -15,22 +15,20 @@
 
 <script type="text/javascript">
 
-   function factorial(){
+   function factorial1(){
     let num = parseInt(document.getElementById("fact_input").value)
     let output = 1
 
     while (num > 0) {
-         output = output * num
-         num -= 1
+        output = output * num
+        num -= 1
     }
-
     alert(parseInt(document.getElementById("fact_input").value) + "! is " + output)
-
-
-
-
    }
 
+   function factorial2(){
+       let iterations = parseInt(document.getElementById("fact_input").value)
+   }
 
 </script>
 
