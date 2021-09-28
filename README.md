@@ -9,6 +9,13 @@ Yajat Yadav | yajatyadav | [Issues](https://github.com/yajatyadav/spring_portfol
 Flora Yuan | florayuan18 | [Issues](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Link](https://cs-a-hq.slack.com/archives/C02BVTN7Q3V/p1631288660003900) [Link](https://github.com/yajatyadav/spring_portfolio/commits?author=florayuan18) | [Link](https://github.com/florayuan18) |
 Harry Li | wiz124 | [Issues](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Awiz124)|[Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1)|[Link](https://github.com/yajatyadav/spring_portfolio/commits?author=wiz124)|[Link](https://github.com/wiz124)|
 
+## Completed Issues 9/28 - 10/1
+Issue Name             | Link | 
+-------------    | -------------- | 
+Issue name | [Issue](Link) |
+Issue name | [Issue](Link) |
+Issue name | [Issue](Link) |
+
 ## Unit 5 9/20-9/24
 Name             | Link(s) | Score | 
 -------------    | -------------- | -------------- | 
