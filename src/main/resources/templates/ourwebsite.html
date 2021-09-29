@@ -43,14 +43,14 @@ unsure about anything for layout, nobody collaborating :(
 <div>
     <img id="picture" src="/static/images/flower.jpg" th:src="@{/images/pusdlogo.png}" alt="menu" width="120px" height="120px" >
     <a href="/help"><button class="format">Help</button></a>
-    <a href="/menu"><button class="order1" id="position"> Order</button></a>
+    <a href="/menu"><button class="order1" id="position2"> Order</button></a>
 <!--    <a><button class="order1" id="position3">Future Lunch Schedules</button></a>
 -->
     <!--create this about us page later-->
-    <a href="/aboutus"><button class="order1" id="position2"> About Us</button></a>
+    <a href="/aboutus"><button class="order1" id="position3"> About Us</button></a>
     <!--what other buttons should we add
         gimme gimme suggestions-->
-
+    <a href="/ourwebsite"><button class="order1" id="position">Home</button></a>
 </div>
 
 <!--this for the logo and name of website-->
@@ -206,7 +206,7 @@ unsure about anything for layout, nobody collaborating :(
         <p>Devam</p>
         <p>Kyle</p>
 <div id="position10">
-        <p>Contact Flora for any problems:</p>
+        <p>Contact Flora for any problems,<br> <br>questions or concerns:</p>
         <p> 858-265-8579</p>
         <p> flora.yuan18@gmail.com</p>
 </div>
@@ -217,7 +217,15 @@ unsure about anything for layout, nobody collaborating :(
 </html>
 
 <style>
+    #position3{
+        top:5%;
+        position:absolute;
+       left:34%;
+    }
     #position10{
+        margin:auto;
+        border:none;
+        width:300px;
         top:0%;
         position:absolute;
         right: 20%;
@@ -319,7 +327,7 @@ unsure about anything for layout, nobody collaborating :(
     }
     #position2{
         top:5%;
-        left:25%;
+       left:25%;
         position:absolute;
     }
  .format{
