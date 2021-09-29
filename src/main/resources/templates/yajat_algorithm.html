@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head>
+    <div layout:fragment="metadata" th:remove="tag">
+    <title>Yajat's Algorithm Page</title>
+</div>
+</head>
+
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+
+    <p> Explain algorithm here </p>
+
+    <script type="text/javascript">
+        function fact1(){
+            alert(document.getElementById("yajatalgorithmForm").value)
+        }
+        function fact2(){
+            alert("fib2")
+        }
+        function fact3(){
+            alert("fib3")
+        }
+        function fact4(){
+            alert()
+        }
+    </script>
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form id="fibForm" action="/fib" method="GET" >
+                <input name="fibseq" id="fibseq" type="number" min="2" max="92" >
+                <button>Go!</button>
+            </form>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- End of body content specific to page -->
+</div>
+
+</body>
+
+</html>
