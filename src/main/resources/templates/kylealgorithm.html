@@ -1,10 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
-</body>
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Kyle's Algorithm Page</title>
+</div></head>
+
+
+<body><div layout:fragment="content" th:remove="tag">
+
+    <p> This algorithm will take the factorial of the number input </p>
+
+    <script type="text/javascript">
+
+
+        function fact1(){
+            alert("hi")
+            var val = parseInt(document.getElementById("kylealgorithmInput").value);
+            alert("fact1" + String(val))
+        }
+        function fact2(){
+            var val = parseInt(document.getElementById("kylealgorithmInput").value);
+            alert("fact2" + val)
+        }
+        function fact3(){
+            var val = parseInt(document.getElementById("kylealgorithmInput").value);
+            alert("fact3" + val)
+        }
+        function fact4(){
+            var val = parseInt(document.getElementById("kylealgorithmInput").value);
+            alert("fact4" + String(val))
+        }
+    </script>
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/kylealgorithm" method="GET" id="kylealgorithmForm">
+
+                <label>What number would you like factorial?</label>
+                <input name="name2" id="kylealgorithmForm" placeholder="Number">
+                <button onclick = "fact1()" id="button1">Submit</button>
+
+                <div>
+                    <label>Run Factorial Method 1</label>
+                    <button onclick = "fact1()" id="button1">Submit</button>
+                </div>
+                <div>
+                    <label>Run Factorial Method 2</label>
+                    <button onclick = "fact2()" id="button2">Submit</button>
+                </div>
+                <div>
+                    <label>Run Factorial Method 3</label>
+                    <button onclick = "fact3()" id="button3">Submit</button>
+                </div>
+                <div>
+                    <label>Run Factorial Method 4</label>
+                    <button onclick = "fact4()" id="button4">Submit</button>
+                </div>
+
+
+
+            </form>
+        </div>
+    </div>
+
+
+</div>
+<!-- End of body content specific to page -->
+</div></body>
+
 </html>
