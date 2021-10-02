@@ -4,7 +4,8 @@ package com.example.sping_portfolio.controllers;
  * Web Content with Spring MVCSpring Example: https://spring.io/guides/gs/serving-web-con
  */
 
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
+import  org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -24,44 +25,53 @@ public class harryalgorithm extends HttpServlet{
     public static int result4;
     @GetMapping("/harrylalgorithm")
     public String harry_algorithm(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model, HttpServletRequest request,
-                                  HttpServletResponse response) throws ServletException, IOException {
+                                  HttpServletResponse response) throws IOException{
         model.addAttribute("name", name);
 
-        num= Integer.parseInt(request.getParameter("input"));
-
-        if(num==1 || num==0) {
-            System.out.println("1");
-
+        //reading from js
+        if(request.getParameter("input1")==null){
+            return "harrylalgorithm";
         }
         else {
-            //call for abstract class
-            extension myabstractrecursion = new extension();
-          int result=  myabstractrecursion.thing(num);
+            num = Integer.parseInt(request.getParameter("input1"));
+            PrintWriter out = response.getWriter();
+            String html = "";
 
-            //starts polymorphism
-            method a;
+            if (num == 1 || num == 0) {
+                System.out.println("1");
 
-            a=new while1();
-            int result2=  a.calc(num);
+                html = "<footer style=\"position:absolute; top:30%; right:20%;border: medium solid black;\">Answer:1</footer>";
+                out.println(html);
+            } else {
+                //call for abstract class
+                extension myabstractrecursion = new extension();
+                int result = myabstractrecursion.thing(num);
 
-            a=new stream();
-            int result3 =a.calc(num);
+                //starts polymorphism
+                method a;
 
-            //call for interface
-            recursion myrecursion = new recursion();
-            myrecursion.recursion1();
+                a = new while1();
+                int result2 = a.calc(num);
 
-            //html
-            PrintWriter out= response.getWriter();
-            String html= "";
-            html +="<footer>for: " +result +"<br>";
-            html +="<while: " + result2 +"<br>";
-            html +="<Stream: " + result3 +"<br>";
-            html +="<recursion: " + result4 +"</footer>";
-            out.println(html);
+                a = new stream();
+                int result3 = a.calc(num);
+
+                //call for interface
+                recursion myrecursion = new recursion();
+                myrecursion.recursion1();
+
+
+                //html
+                html += "<footer style=\"position:absolute; top:30%; right:20%;border: medium solid black;\">for: " + result + "<br>";
+                html += "while: " + result2 + "<br>";
+                html += "stream: " + result3 + "<br>";
+                html += "recursion: " + result4 + "</footer>";
+                html += "";
+                out.println(html);
+            }
+
+            return "harrylalgorithm";
         }
-
-        return "harrylalgorithm";
     }
 }
 //abstract class for forloop

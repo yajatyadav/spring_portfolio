@@ -25,53 +25,22 @@
 
         </div>
         <div style="left:30%; top:30%; position:absolute;">
-            <form name="user" method="Get" id="Harryfactorial">
-            <label >Input a number to calulate a factorial:</label>
-            <input name="input" id="input" type="number" min="0">
-            <button>Calculate!</button>
+
+            <form name="user" method="GET" id="Harryfactorial">
+                <label >Input a number to calulate a factorial:</label>
+                <input name="input1" id="input1" type="number" min="0"/>
+                <button>Calculate!</button>
             </form>
+
             <script>
+                document.getElementById("input1").value=1;
             document.getElementById("Harryfactorial").onsubmit = function () {
-                var key = document.getElementById("user").value;
+                 let key = document.getElementById("input1").value;
+                alert("for: " +result+""+"while: "+result2+""+ "stream: "+result3 + ""+"recursion: "+result4);
             }
         </script>
         </div>
-        <table>
-            <tr>
-                <th>Method</th>
-                <th>result</th>
-            </tr>
-                <td>For</td>
-                <td>null</td>
-            <tr>
-                <td>While</td>
-                <td>null</td>
-            </tr>
-            <tr>
-                <td>recursion</td>
-                <td>null</td>
-            </tr>
-            <tr>
-                <td>Stream</td>
-                <td>null</td>
-            </tr>
-        </table>
-        <style>
-            table, th, td{
-                border: medium solid black;
-               border-collapse:collapse;
-            }
-            table{
-                position:absolute;
-                left:10%;
-                width:100px;
-                height:25px;
-            }
-            th,td{
-                text-align:center;
 
-            }
-        </style>
 
     </div>
     <!-- End of body content specific to page -->
