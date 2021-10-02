@@ -13,7 +13,7 @@
 <div layout:fragment="content" th:remove="tag">
 
     <p> Explain algorithm here </p>
-    <form name="ImpMethod" method="GET">
+    <form name="ImpMethod" method="GET" id="devamalgorithmForm">
     Implementation Method:
         <select name="ImpMethod">
             <option value="For">For</option>
@@ -23,6 +23,12 @@
         </select>
         Row of Pascal Triangle: <input type="text" name="Row of Pascal Triangle"/>
         <input type="submit" value="Submit" />
+        <script>
+            document.getElementById("devamalgorithmForm").onsubmit = function (){
+                var key =document.getElementById("ImpMethod").value;
+                alert("Your returned Pascal Triangle Layer for method '" + method + "'  and desired layer " + layer + " is: ";)
+                }
+        </script>
     </form>
 
 </div>
