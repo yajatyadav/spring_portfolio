@@ -1,0 +1,113 @@
+package com.example.sping_portfolio.controllers;
+
+
+import java.io.IOException;
+import java.util.Scanner;
+import java.util.stream.*;
+
+
+public class harryfactorial {
+    public static int num;
+    public static void main(String[]args) throws  IOException{
+        Scanner fnum= new Scanner(System.in);
+        System.out.print("Enter a number to perform factorial function: ");
+        num=fnum.nextInt();
+        fnum.close();
+
+
+
+        if(num==1 || num==0) {
+            System.out.println("1");
+        }
+        else {
+            //calling static method
+            int result =recursion(num);
+
+            //starts polymorphism
+            method a;
+            a=new while1();
+            a.calc();
+            a=new for1();
+            a.calc();
+            a=new stream();
+            a.calc();
+
+
+            System.out.println("recursion: " +result);
+
+
+        }
+    }
+
+    //static method
+    public static int recursion(int k) {
+        if(k>1) {
+            return k*recursion(k-1);
+        }
+        else if(k==0) {
+            return 0;
+        }
+        else{
+            return 1;
+
+        }
+
+
+    }
+}
+
+//polymorphism, method overriding
+class method{
+    public void calc() {
+
+    }
+}
+
+class for1 extends method{
+    public void calc() {
+        int k=harryfactorial.num;
+        int total=1;
+        for (int i=1; i<=k; i++) {
+            total=i*total;
+        }
+        System.out.println("for: "+total);
+    }
+}
+
+class while1 extends method{
+    public void calc() {
+        int k =harryfactorial.num;
+        int i=0;
+        int j=k;
+        int total=1;
+        while(k>i) {
+            i++;
+            total=total*j;
+            j=j-1;
+
+        }
+        System.out.println("while: "+total);
+    }
+}
+
+class stream extends method{
+    public void calc() {
+        int k=harryfactorial.num;
+        Long total=LongStream.rangeClosed( 1, k).reduce(1, ( long a, long b ) -> a * b);
+        int t=total.intValue();
+        System.out.println("stream: "+t);
+    }
+}
+
+
+/*
+
+for example: 3
+3*recursion(2)
+3*(2*(recursion(1))
+
+make it stop at 1
+otherwise:
+3*(2*(1*recursion(0)))=0
+
+*/

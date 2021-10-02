@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>factorial calculator</title>
+    <!-- End of head content specific to page -->
+</div>
+    <meta charset="UTF-8">
+</head>
+
+
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="product" style="margin-top: 2%;">
+        <div class="row" style="padding: 0% 10% 5%;">
+
+            <div class="col-8" >
+                <h1>Harry's Factorial calculator</h1>
+            </div>
+
+        </div>
+        <div style="left:30%; top:30%; position:absolute;">
+            <form name="user" method="Get" id="Harryfactorial">
+            <label >Input a number to calulate a factorial:</label>
+            <input name="input" id="input" type="number" min="0">
+            <button>Calculate!</button>
+            </form>
+            <script>
+            document.getElementById("Harryfactorial").onsubmit = function () {
+                var key = document.getElementById("user").value;
+            }
+        </script>
+        </div>
+        <table>
+            <tr>
+                <th>Method</th>
+                <th>result</th>
+            </tr>
+                <td>For</td>
+                <td>null</td>
+            <tr>
+                <td>While</td>
+                <td>null</td>
+            </tr>
+            <tr>
+                <td>recursion</td>
+                <td>null</td>
+            </tr>
+            <tr>
+                <td>Stream</td>
+                <td>null</td>
+            </tr>
+        </table>
+        <style>
+            table, th, td{
+                border: medium solid black;
+               border-collapse:collapse;
+            }
+            table{
+                position:absolute;
+                left:10%;
+                width:100px;
+                height:25px;
+            }
+            th,td{
+                text-align:center;
+
+            }
+        </style>
+
+    </div>
+    <!-- End of body content specific to page -->
+</div>
+
+
+</body>
+
+
+</html>
