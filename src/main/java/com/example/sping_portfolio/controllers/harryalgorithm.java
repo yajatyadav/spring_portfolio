@@ -43,7 +43,7 @@ public class harryalgorithm extends HttpServlet{
                 html = "<footer style=\"position:absolute; top:30%; right:20%;border: medium solid black;\">Answer:1</footer>";
                 out.println(html);
             } else {
-                //call for abstract class
+                // call for abstract class
                 extension myabstractrecursion = new extension();
                 int result = myabstractrecursion.thing(num);
 
