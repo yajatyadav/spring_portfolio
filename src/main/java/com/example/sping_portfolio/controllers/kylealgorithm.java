@@ -1,3 +1,5 @@
+/*
+
 package com.example.sping_portfolio.controllers;
 
 import org.springframework.stereotype.Component;
@@ -30,7 +32,6 @@ public class kylealgorithm extends HttpServlet{
             num = Integer.parseInt(request.getParameter("input1"));
             String html = "";
                 html = "<footer style=\"position:absolute; top:30%; right:20%;border: medium solid black;\">Answer:1</footer>";
-            } else {
 
                 extension2 forrecursion = new extension2();
                 int total1 = forrecursion.thing(num);
@@ -109,3 +110,6 @@ class streamrecursion extends method2{
         return total;
     }
 }
+
+
+ */

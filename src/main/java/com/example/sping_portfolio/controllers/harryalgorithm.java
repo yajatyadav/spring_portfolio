@@ -77,14 +77,14 @@ public class harryalgorithm extends HttpServlet{
 //abstract class for forloop
 abstract class abstractrecursion{
     public abstract void calc();
-      public int thing(int k){
-          int total=1;
-          for (int i=1; i<=k; i++) {
-              total = i * total;
-          }
-          return total;
+    public int thing(int k){
+        int total=1;
+        for (int i=1; i<=k; i++) {
+            total = i * total;
+        }
+        return total;
 
-     }
+    }
 }
 class extension extends abstractrecursion{
     public void calc(){
@@ -95,9 +95,9 @@ class extension extends abstractrecursion{
 //what interface call for recursion
 class recursion implements calculation {
     public void recursion1() {
-            int total=recursion2(harryalgorithm.num);
-            System.out.println(total);
-            harryalgorithm.result4=total;
+        int total=recursion2(harryalgorithm.num);
+        System.out.println(total);
+        harryalgorithm.result4=total;
     }
 
 
