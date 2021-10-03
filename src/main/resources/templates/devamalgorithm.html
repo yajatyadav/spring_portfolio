@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head>
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>Devam's Algorithm Page</title>
+    </div>
+</head>
+
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+
+    <p> Explain algorithm here </p>
+    <form name="ImpMethod" method="GET" id="devamalgorithmForm">
+    Implementation Method:
+        <select name="ImpMethod">
+            <option value="For">For</option>
+            <option value="Recursive">Recursive</option>
+            <option value="Matrix">Matrix</option>
+            <option value="While">While</option>
+        </select>
+        Row of Pascal Triangle: <input type="text" name="Row of Pascal Triangle"/>
+        <input type="submit" value="Submit" />
+        <script>
+            document.getElementById("devamalgorithmForm").onsubmit = function (){
+                var key =document.getElementById("ImpMethod").value;
+                alert("Your returned Pascal Triangle Layer for method '" + method + "'  and desired layer " + layer + " is: ")
+                }
+        </script>
+    </form>
+
+</div>
+<!-- End of body content specific to page -->
+</div>
+
+</body>
+
+</html>

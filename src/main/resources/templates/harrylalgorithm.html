@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>factorial calculator</title>
+    <!-- End of head content specific to page -->
+</div>
+    <meta charset="UTF-8">
+</head>
+
+
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="product" style="margin-top: 2%;">
+        <div class="row" style="padding: 0% 10% 5%;">
+
+            <div class="col-8" >
+                <h1>Harry's Factorial calculator</h1>
+            </div>
+
+        </div>
+        <div style="left:30%; top:30%; position:absolute;">
+
+            <form name="user" method="GET" id="Harryfactorial">
+                <label >Input a number to calulate a factorial:</label>
+                <input name="input1" id="input1" type="number" min="0"/>
+                <button>Calculate!</button>
+            </form>
+
+            <script>
+                document.getElementById("input1").value=1;
+            document.getElementById("Harryfactorial").onsubmit = function () {
+                 let key = document.getElementById("input1").value;
+                alert("for: " +result+""+"while: "+result2+""+ "stream: "+result3 + ""+"recursion: "+result4);
+            }
+        </script>
+        </div>
+
+
+    </div>
+    <!-- End of body content specific to page -->
+</div>
+
+
+</body>
+
+
+</html>

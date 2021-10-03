@@ -10,10 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class images {
-    @GetMapping("/images")    // CONTROLLER handles GET request for /images, maps it to images() and does variable bindings
+    @GetMapping("/images")
     public String images(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
-        model.addAttribute("name", name); // MODEL is passed to html
-        return "images"; // returns HTML VIEW (greeting)
+        model.addAttribute("name", name);
+        return "images";
     }
 }

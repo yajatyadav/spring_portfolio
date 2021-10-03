@@ -12,22 +12,34 @@
     <p> This algorithm will take the factorial of the number input </p>
 
     <script type="text/javascript">
-        function fib1(){
-            alert("fib1")
+
+
+        function fact1(){
+            alert("hi")
+            var val = parseInt(document.getElementById("kylealgorithmInput").value);
+            alert("fact1" + String(val))
         }
-        function fib2(){
-            alert("fib2")
+        function fact2(){
+            var val = parseInt(document.getElementById("kylealgorithmInput").value);
+            alert("fact2" + val)
         }
-        function fib3(){
-            alert("fib3")
+        function fact3(){
+            var val = parseInt(document.getElementById("kylealgorithmInput").value);
+            alert("fact3" + val)
         }
-        function fib4(){
-            alert("fib4")
+        function fact4(){
+            var val = parseInt(document.getElementById("kylealgorithmInput").value);
+            alert("fact4" + String(val))
         }
     </script>
     <div class="contact" style="height: 35vh;">
         <div class="row justify-content-left" style="margin: 2%;">
             <form action="/kylealgorithm" method="GET" id="kylealgorithmForm">
+
+                <label>What number would you like factorial?</label>
+                <input name="name2" id="kylealgorithmForm" placeholder="Number">
+                <button onclick = "fact1()" id="button1">Submit</button>
+
                 <div>
                     <label>Run Factorial Method 1</label>
                     <button onclick = "fact1()" id="button1">Submit</button>
@@ -44,6 +56,8 @@
                     <label>Run Factorial Method 4</label>
                     <button onclick = "fact4()" id="button4">Submit</button>
                 </div>
+
+
 
             </form>
         </div>
