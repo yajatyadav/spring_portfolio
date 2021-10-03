@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yajat's Factorial Page</title>
+</head>
+<body>
+
+<form id="factForm" action="/yajat_factorial" method="GET" >
+    <input name="factorial" id="factorial" type="number" min="1" max="50" >
+    <button>Go!</button>
+</form>
+
+<div layout:fragment="content" th:remove="tag">
+    <div class="col-md-6">
+        <h3>Factorial Algorithm comparison</h3>
+        <table class="mx-auto">
+            <tr>
+                <th scope="col">Method</th>
+                <th scope="col">Number</th>
+
+            </tr>
+
+<!--            <tr th:each="factorial : ${factorials}">-->
+<!--&lt;!&ndash;            <td th:text="${factorials}"></td>&ndash;&gt;-->
+<!--            <td th:text="${factorial.getName()}"></td>-->
+<!--            <td th:text="${factorial.getValue()}"></td>-->
+<!--            </tr>-->
+
+               <tr>             <!--            <td th:text="${factorials}"></td>-->
+                <td th:text="${for_Method_Used}"></td>
+                <td th:text="${for_factorial_value}"></td>
+            </tr>
+
+
+            <tr>
+                <td th:text = "${while_Method_Used}"></td>
+                <td th:text = "${while_factorial_value}"></td>
+            </tr>
+
+
+
+            <tr>
+                <td th:text = "${recurse_factorial_name}"></td>
+                <td th:text = "${recurse_factorial_value}"></td>
+            </tr>
+
+
+
+            <tr>
+                <td th:text = "${stream_factorial_name}"></td>
+                <td th:text = "${stream_factorial_value}"></td>
+            </tr>
+
+
+
+        </table>
+    </div>
+</div>
+</body>
+</html>
