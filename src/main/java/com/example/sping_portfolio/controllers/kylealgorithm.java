@@ -45,11 +45,12 @@ public class kylealgorithm extends HttpServlet{
     }
 }
 
-//  For loop will add the current iteration number to the total until the limit is reached
+//  For loop will add the current iteration number to the total
 abstract class for_recursion{
     public abstract void calc();
     public int thing(int limit){
         int total = 1;
+        // Loops until the limit (limit) is reached - all numbers will be added until then
         for (int i = 1; i <= limit; i++) {
             total = i + total;
         }
@@ -69,21 +70,10 @@ class recursion2 implements calculation2 {
         kylealgorithm.total4=total;
     }
 
-
     public static int recursionmethod(int limit){
         if (limit > 1){
             return limit + recursionmethod(limit - 1);
         }
-    }
-}
-
-//  Limit
-interface calculation2{
-    public void recursion2();
-}
-class method2{
-    public int calc(int limit){
-        return 0;
     }
 }
 
