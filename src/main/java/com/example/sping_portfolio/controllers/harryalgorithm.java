@@ -28,20 +28,24 @@ public class harryalgorithm extends HttpServlet{
                                   HttpServletResponse response) throws IOException{
         model.addAttribute("name", name);
 
-        //reading from js
+        //null input handling
         if(request.getParameter("input1")==null){
             return "harrylalgorithm";
         }
         else {
+            //read from js
             num = Integer.parseInt(request.getParameter("input1"));
             PrintWriter out = response.getWriter();
             String html = "";
 
+            //lol do we really need to go through so much cpu just to calculate a simple factorial
             if (num == 1 || num == 0) {
                 System.out.println("1");
 
                 html = "<footer style=\"position:absolute; top:30%; right:20%;border: medium solid black;\">Answer:1</footer>";
                 out.println(html);
+
+            //calculate more harder factorial
             } else {
                 // call for abstract class
                 extension myabstractrecursion = new extension();
