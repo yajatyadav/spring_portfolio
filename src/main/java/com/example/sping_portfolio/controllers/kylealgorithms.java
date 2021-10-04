@@ -37,9 +37,9 @@ public class kylealgorithm extends HttpServlet{
                 int total1 = forrecursion.thing(num);
                 method run;
                 run = new whileloop();
-                int total2 = run.calc(num);
+                int total2 = run.calculating(num);
                 run = new streamrecursion();
-                int total3 = run.calc(num);
+                int total3 = run.calculating(num);
             return "kylealgorithm";
         }
     }
@@ -47,7 +47,7 @@ public class kylealgorithm extends HttpServlet{
 
 //  For loop will add the current iteration number to the total until the limit is reached
 abstract class for_recursion{
-    public abstract void calc();
+    public abstract void calculating();
     public int thing(int limit){
         int total = 1;
         for (int i = 1; i <= limit; i++) {
@@ -58,7 +58,7 @@ abstract class for_recursion{
 }
 
 class extension2 extends for_recursion{
-    public void calc(){
+    public void calculating(){
     }
 }
 
@@ -82,14 +82,14 @@ interface calculation2{
     public void recursion2();
 }
 class method2{
-    public int calc(int limit){
+    public int calculating(int limit){
         return 0;
     }
 }
 
 //  While loop will add to the total from the top number down, until the iteration count hits the limit
 class whileloop extends method2{
-    public int calc(int limit){
+    public int calculating(int limit){
         int i = 0;
         int adding = limit;
         int total = 0;
@@ -104,7 +104,7 @@ class whileloop extends method2{
 
 // Stream method will continue to add the numbers for each between 1 and the input limit
 class streamrecursion extends method2{
-    public int calc(int limit) {
+    public int calculating(int limit) {
         Long total= LongStream.rangeClosed(1, limit).reduce(1, (long a, long b ) -> a + b);
         total = total.intValue();
         return total;
