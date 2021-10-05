@@ -1,4 +1,4 @@
-
+/*
 package com.example.sping_portfolio.controllers;
 
 import org.springframework.stereotype.Component;
@@ -109,6 +109,6 @@ class streamrecursion extends method2{
         return total;
     }
 }
-
+*/
 
  
