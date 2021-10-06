@@ -75,22 +75,22 @@
             <input name="image" type="text" id="grayscale">
             <label>Image 1: Please list a file directory</label>
             <button>Go!</button>
-        </form>
+       </form>
         <form name="image2" method="GET" id="imagechange2">
             <input name="image"  id="grayscale2" type="text">
             <label>Image 2: Please list a file directory</label>
             <button>Go!</button>
-        </form>
+       </form>
         <form name="image3" method="GET" id="imagechange3">
             <input name="image"  id="grayscale3" type="text">
             <label>Image 3: Please list a file directory</label>
             <button>Go!</button>
-        </form>
+       </form>
         <form name="image4" method="GET" id="imagechange4">
             <input name="image" type="text" id="grayscale4">
             <label>Image 4: Please list a file directory</label>
             <button>Go!</button>
-        </form>
+       </form>
         <form name="image5" method="GET" id="imagechange5">
             <input name="image"  type="text" id="grayscale5">
             <label>Image 5: Please list a file directory</label>
@@ -100,29 +100,61 @@
             <input name="image"  type="text" id="grayscale6">
             <label>Image 6: Please list a file directory</label>
             <button>Go!</button>
-        </form>
+       </form>
         <form name="image6" method="GET" id="imagechange7">
             <input name="image" type="text" id="grayscale8">
             <label>Image 7: Please list a file directory</label>
             <button>Go!</button>
-        </form>
+         </form>
         <form name="image7" method="GET" id="imagechange8">
              <input name="image" type="text" id="grayscale9">
             <label>Image 8: Please list a file directory</label>
         <button>Go!</button>
-    </form>
-        <form name="image8" method="GET" id="imagechange9">
-            <input name="image" type="text" id="grayscale10">
-            <label>Image 9: Please list a file directory</label>
-            <button>Go!</button>
-        </form>
-        <form name="image9" method="GET" id="imagechange10">
-            <input name="image" type="text" id="grayscale7">
-            <label>Image 10: Please list a file directory</label>
-            <button>Go!</button>
-        </form>
+   </form>
+               <form name="image8" method="GET" id="imagechange9">
+                   <input name="image" type="text" id="grayscale10">
+                   <label>Image 9: Please list a file directory</label>
+                   <button>Go!</button>
+                     </form>
+                   <form name="image9" method="GET" id="imagechange10">
+                   <input name="image" type="text" id="grayscale7">
+                   <label>Image 10: Please list a file directory</label>
+                   <button>Go!</button>
+              </form>
         <p class="center">Directory example: C:\\users\image.jpg</p>
         </div>
+        <script>
+           document.getElementById("imagechange").onsubmit = function () {
+               let key = document.getElementById("grayscale").value;
+           }
+           document.getElementById("imagechange2").onsubmit = function () {
+               let key = document.getElementById("grayscale2").value;
+           }
+           document.getElementById("imagechange3").onsubmit = function () {
+               let key = document.getElementById("grayscale3").value;
+           }
+           document.getElementById("imagechange4").onsubmit = function () {
+               let key = document.getElementById("grayscale4").value;
+           }
+           document.getElementById("imagechange5").onsubmit = function () {
+               let key = document.getElementById("grayscale5").value;
+           }
+           document.getElementById("imagechange6").onsubmit = function () {
+               let key = document.getElementById("grayscale6").value;
+           }
+           document.getElementById("imagechange7").onsubmit = function () {
+               let key = document.getElementById("grayscale8").value;
+           }
+           document.getElementById("imagechange8").onsubmit = function () {
+               let key = document.getElementById("grayscale9").value;
+           }
+           document.getElementById("imagechange9").onsubmit = function () {
+               let key = document.getElementById("grayscale10").value;
+           }
+           document.getElementById("imagechange10").onsubmit = function () {
+               let key = document.getElementById("grayscale7").value;
+           }
+        </script>
         <style>
             #size{
                 height:500px;
