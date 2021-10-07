@@ -23,11 +23,21 @@ import javax.servlet.http.HttpServletResponse;
 public class image {
     @GetMapping("/images")
     public String Images(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model, HttpServletRequest request,
-                         HttpServletResponse response) throws IOException{
+    HttpServletResponse response) throws IOException{
         model.addAttribute("name", name);
 
+        //set up output
+        PrintWriter out = response.getWriter();
+        String html = "";
 
-
+        //need to work on boolean, check for button press, experiment with this:
+        // boolean start = req.getAttribute("go");
+        boolean start=Boolean.parseBoolean(request.getParameter("go"));
+        if(start==false){
+            html = "testing";
+            out.println(html);
+            return "images";
+        }
 
         return "images";
     }
