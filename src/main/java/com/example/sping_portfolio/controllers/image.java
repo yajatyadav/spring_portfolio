@@ -32,13 +32,13 @@ public class image {
 
         //need to work on boolean, check for button press, experiment with this:
         // boolean start = req.getAttribute("go");
-        boolean start=Boolean.parseBoolean(request.getParameter("go"));
+      /* boolean start=Boolean.parseBoolean(request.getParameter("go"));
         if(start==false){
             html = "testing";
             out.println(html);
             return "images";
         }
-
+*/
         return "images";
     }
 }
