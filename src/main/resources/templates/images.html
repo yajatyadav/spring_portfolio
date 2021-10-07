@@ -83,23 +83,31 @@
 
 
         <div id="size"> <!--restrict to left side-->
-            <img src="/static/images/yummy.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/burrito.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/flower.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/milk.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/Mona_Lisa.png}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/mountain.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/yummy.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/cursed-meme.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/boku.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/noo.jpg}" alt="menu" height="auto" width="20%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/unnamed.jpg}" alt="menu" height="auto" width="20%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/burrito.jpg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/flower.jpg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/milk.jpeg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/Mona_Lisa.png}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/mountain.jpg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/yummy.jpg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/cursed-meme.jpg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/boku.jpg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/noo.jpg}" alt="menu" height="auto" width="100%">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/unnamed.jpg}" alt="menu" height="auto" width="100%">
 
         </div>
         <script>
 
         </script>
         <style>
+            #size{
+                position:relative;
+                width:20%;
+                border:none;
+                margin:0px;
+                padding:0px;
+                height:auto;
+            }
             #size1{
                 position:relative;
                 border:10px;
@@ -118,9 +126,7 @@
             .text-center{
                 text-align:center;
             }
-            img{
-                vertical-align:middle;
-            }
+
         </style>
     </div>
 </body>
