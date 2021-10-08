@@ -74,39 +74,67 @@
             <input type="submit" id="convert" name="go" value="Convert!">
         </form>
     </div>
-
-     <script>
-            document.getElementById("conversion").onclick = function () {
-
-            }
-        </script>
-
-
-        <div id="size"> <!--restrict to left side-->
-            <img src="/static/images/yummy.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/burrito.jpg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/flower.jpg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/milk.jpeg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/Mona_Lisa.png}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/mountain.jpg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/yummy.jpg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/cursed-meme.jpg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/boku.jpg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/noo.jpg}" alt="menu" height="auto" width="100%">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/unnamed.jpg}" alt="menu" height="auto" width="100%">
-
-        </div>
         <script>
-
+           document.getElementById("conversion").onclick = function() {
+               alert(document.getElementById("convert").value)
+           }
         </script>
+
+
+        <div class="size" > <!--restrict to left side-->
+            <img src="/static/images/yummy.jpg" th:src="@{/images/pizza.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/burrito.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/flower.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/milk.jpeg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/Mona_Lisa.png}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/mountain.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/yummy.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/cursed-meme.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/boku.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/noo.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
+        <div class="size">
+            <img src="/static/images/yummy.jpg" th:src="@{/images/unnamed.jpg}" alt="menu" height="auto" width="100%">
+        </div>
+
         <style>
-            #size{
+            .size{
                 position:relative;
                 width:20%;
                 border:none;
                 margin:0px;
-                padding:0px;
+                padding-top:10px;
+                padding-bottom: 15px;
                 height:auto;
+                top:10%;
             }
             #size1{
                 position:relative;
@@ -138,7 +166,7 @@ image info required
         hexadecimal
         binary
 
-----prototype flow chart----
+----flow chart----
 button>process image>outputs attributes to table(hopefully) and grayscale image
 -->
 </html>

@@ -21,24 +21,44 @@ import javax.servlet.http.HttpServletResponse;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class image {
+
+    public static String[] imginput = new String[10];
+    //might create arrays for the base64 and other outputs
+
     @GetMapping("/images")
     public String Images(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model, HttpServletRequest request,
     HttpServletResponse response) throws IOException{
         model.addAttribute("name", name);
 
-        //set up output
+        //setup array list, list each img file in array
+        imginput[0]= "pizza.jpg";
+        imginput[1]= "burrito.jpg";
+        imginput[2]= "flower.jpg";
+        imginput[3]= "milk.jpg";
+        imginput[4]= "Mona_Lisa.jpg";
+        imginput[5]= "yummy.jpg";
+        imginput[6]= "cursed-meme.jpg";
+        imginput[7]= "boku.jpg";
+        imginput[8]= "noo.jpg";
+        imginput[9]= "unnamed.jpg";
+
+        //set up html output
         PrintWriter out = response.getWriter();
         String html = "";
 
-        //need to work on boolean, check for button press, experiment with this:
-        // boolean start = req.getAttribute("go");
-      /* boolean start=Boolean.parseBoolean(request.getParameter("go"));
-        if(start==false){
-            html = "testing";
-            out.println(html);
-            return "images";
-        }
-*/
+        //check for button press
+      String start = request.getParameter("go");
+
+    if(start.equals("Convert!")){
+
+           return "images";
+    }
+
+    //exception handler
+    else if(start==null){
+        return "images";
+    }
+
         return "images";
     }
 }
