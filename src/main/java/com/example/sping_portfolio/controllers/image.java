@@ -53,6 +53,30 @@ public class image {
         // loop to generate output values
         for(int i=0; i<imginput.length;i++){
 
+            output a;
+
+            a= new grayscale();
+
+            //calls to calculate base64
+            a = new base64();
+            String base= a.files(imginput[i]);
+
+            //calls to calculate binary
+            a = new binary();
+            String binarys = a.files(imginput[i]);
+
+            //calls to calculate decimal
+            a=new decimal();
+            String dec =a.files(imginput[i]);
+
+            //calls to calculate rgb
+            a= new rgb();
+            String color=a.files(imginput[i]);
+
+            //calls to calculate hexadecimal
+            a = new hexadecimal();
+            String hex=a.files(imginput[i]);
+
         }
            return "images";
     }
@@ -66,33 +90,51 @@ public class image {
     }
 }
 
+//outputs, don't know if polymorphism is best to accomplish this
 class output{
-    public String files(int i){
+    public String files(String i){
         return "0";
     }
 }
+
+//img to base64
 class base64 extends output{
-    public String files(int i){
+    public String files(String i){
         return "0";
     }
 }
+
+//calculate grayscale
+class grayscale extends output{
+    public String files(String i){
+        return "0";
+    }
+}
+
+//img to rgb
 class rgb extends output{
-    public String files(int i){
+    public String files(String i){
         return "0";
     }
 }
+
+//img to hex
 class hexadecimal extends output{
-    public String files(int i){
+    public String files(String i){
         return "0";
     }
 }
+
+//img to binary
 class binary extends output{
-    public String files(int i){
+    public String files(String i){
         return "0";
     }
 }
+
+//img to decimal
 class decimal extends output{
-    public String files(int i){
+    public String files(String i){
         return "0";
     }
 }
