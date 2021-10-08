@@ -31,9 +31,9 @@ public class image {
         model.addAttribute("name", name);
 
         //setup array list, list each img file in array
-        imginput[0]= "pizza.jpg";
-        imginput[1]= "burrito.jpg";
-        imginput[2]= "flower.jpg";
+        imginput[0]= "harryunfortunately.png";
+        imginput[1]= "toastcat.jpg";
+        imginput[2]= "donuts.jpg";
         imginput[3]= "milk.jpg";
         imginput[4]= "Mona_Lisa.jpg";
         imginput[5]= "yummy.jpg";
