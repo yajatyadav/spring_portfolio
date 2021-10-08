@@ -47,10 +47,12 @@ public class image {
         String html = "";
 
         //check for button press
-      String start = request.getParameter("go");
-
+        String start = request.getParameter("go");
     if(start.equals("Convert!")){
+        // loop to generate output values
+        for(int i=0; i<imginput.length;i++){
 
+        }
            return "images";
     }
 
