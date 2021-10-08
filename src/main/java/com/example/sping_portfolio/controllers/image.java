@@ -49,6 +49,7 @@ public class image {
         //check for button press
         String start = request.getParameter("go");
     if(start.equals("Convert!")){
+
         // loop to generate output values
         for(int i=0; i<imginput.length;i++){
 
@@ -62,5 +63,36 @@ public class image {
     }
 
         return "images";
+    }
+}
+
+class output{
+    public String files(int i){
+        return "0";
+    }
+}
+class base64 extends output{
+    public String files(int i){
+        return "0";
+    }
+}
+class rgb extends output{
+    public String files(int i){
+        return "0";
+    }
+}
+class hexadecimal extends output{
+    public String files(int i){
+        return "0";
+    }
+}
+class binary extends output{
+    public String files(int i){
+        return "0";
+    }
+}
+class decimal extends output{
+    public String files(int i){
+        return "0";
     }
 }
