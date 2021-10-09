@@ -9,10 +9,14 @@ import  org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.stream.LongStream;
-
+import java.io.File;
+import javax.imageio.ImageIO;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -22,7 +26,7 @@ import javax.servlet.http.HttpServletResponse;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class image {
 
-    public static String[] imginput = new String[10];
+    public  String[] imginput = new String[10];
     //might create arrays for the base64 and other outputs
 
     @GetMapping("/images")
@@ -32,7 +36,7 @@ public class image {
 
         //setup array list, list each img file in array
         imginput[0]= "harryunfortunately.png";
-        imginput[1]= "toastcat.jpg";
+        imginput[1]= "Capture.PNG";
         imginput[2]= "donuts.jpg";
         imginput[3]= "milk.jpg";
         imginput[4]= "Mona_Lisa.jpg";
@@ -45,6 +49,7 @@ public class image {
         //set up html output
         PrintWriter out = response.getWriter();
         String html = "";
+        String header = "";
 
         //check for button press
         String start = request.getParameter("go");
@@ -58,7 +63,7 @@ public class image {
 
             //calls to calculate base64
             a = new base64();
-            String base= a.files(imginput[i]);
+            String base = a.files(imginput[i]);
 
             //calls to calculate binary
             a = new binary();
@@ -66,15 +71,21 @@ public class image {
 
             //calls to calculate decimal
             a=new decimal();
-            String dec =a.files(imginput[i]);
+            String dec = a.files(imginput[i]);
 
             //calls to calculate rgb
             a= new rgb();
-            String color=a.files(imginput[i]);
+            String color = a.files(imginput[i]);
 
             //calls to calculate hexadecimal
             a = new hexadecimal();
-            String hex=a.files(imginput[i]);
+            String hex = a.files(imginput[i]);
+
+            //grayscale
+            grayscale b = new grayscale();
+            File pic = new File(imginput[i]);
+            BufferedImage pic2=ImageIO.read(pic);
+            BufferedImage gray = b.convert(pic2);
 
         }
            return "images";
@@ -87,6 +98,7 @@ public class image {
 
         return "images";
     }
+
 }
 
 //outputs, don't know if polymorphism is best to accomplish this
@@ -103,12 +115,7 @@ class base64 extends output{
     }
 }
 
-//calculate grayscale
-class grayscale extends output{
-    public String files(String i){
-        return "0";
-    }
-}
+
 
 //img to rgb
 class rgb extends output{
@@ -135,5 +142,37 @@ class binary extends output{
 class decimal extends output{
     public String files(String i){
         return "0";
+    }
+}
+
+//calculate grayscale
+class grayscale {
+    public BufferedImage convert(BufferedImage file){
+        try {
+            int width=file.getWidth();
+            int height=file.getHeight();
+            for(int k=0; k<height; k++) {
+
+                for(int j=0; j<width; j++) {
+
+                    Color c = new Color(file.getRGB(j, k));
+                    int red = (int)(c.getRed() * 0.299);
+                    int green = (int)(c.getGreen() * 0.587);
+                    int blue = (int)(c.getBlue() *0.114);
+                    Color newColor = new Color(red+green+blue,
+
+                            red+green+blue,red+green+blue);
+
+                    file.setRGB(j,k,newColor.getRGB());
+                }
+            }
+            File ouptut = new File("grayscale.jpg");
+            ImageIO.write(file, "jpg", ouptut);
+
+        }
+        catch(Exception e) {
+
+        }
+        return file;
     }
 }

@@ -18,7 +18,7 @@ public class Grayscalecode {
 		//i don't know how else I'm supposed to get an image to grayscale :P
 
 		//no idea how this input form gonna look for user
-		while(userinput==false) {
+		while(!userinput) {
 			//Scanner filename= new Scanner(System.in);
 			//System.out.println("Enter image pathway(ex:C:\\Users\\image.jpg)): ");
 			String file = JOptionPane.showInputDialog("Enter image pathway(ex:C:\\Users\\image.jpg)): ");
