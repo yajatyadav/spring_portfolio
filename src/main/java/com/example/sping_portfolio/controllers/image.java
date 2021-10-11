@@ -91,9 +91,9 @@ public class image {
 
             //grayscale
             grayscale b = new grayscale();
-            File pic = new File(imginput[i]);
-            BufferedImage pic2 = ImageIO.read(pic);
-            gray[i] = b.convert(pic2);
+            gray[i] = grayscale.convert(imginput[i]);
+
+
 
         }
 
@@ -174,32 +174,34 @@ class decimal extends output{
 
 //calculate grayscale
 class grayscale {
-    public BufferedImage convert(BufferedImage file){
+    public static BufferedImage convert(String f) {
+        File file = new File(f);
+        BufferedImage image = null;
         try {
-            int width=file.getWidth();
-            int height=file.getHeight();
-            for(int k=0; k<height; k++) {
+            image = ImageIO.read(file);
+            int width = image.getWidth();
+            int height = image.getHeight();
+            for (int k = 0; k < height; k++) {
 
-                for(int j=0; j<width; j++) {
+                for (int j = 0; j < width; j++) {
 
-                    Color c = new Color(file.getRGB(j, k));
-                    int red = (int)(c.getRed() * 0.299);
-                    int green = (int)(c.getGreen() * 0.587);
-                    int blue = (int)(c.getBlue() *0.114);
-                    Color newColor = new Color(red+green+blue,
+                    Color c = new Color(image.getRGB(j, k));
+                    int red = (int) (c.getRed() * 0.299);
+                    int green = (int) (c.getGreen() * 0.587);
+                    int blue = (int) (c.getBlue() * 0.114);
+                    Color newColor = new Color(red + green + blue,
 
-                            red+green+blue,red+green+blue);
+                            red + green + blue, red + green + blue);
 
-                    file.setRGB(j,k,newColor.getRGB());
+                    image.setRGB(j, k, newColor.getRGB());
                 }
             }
             File ouptut = new File("grayscale.jpg");
-            ImageIO.write(file, "jpg", ouptut);
+            ImageIO.write(image, "jpg", ouptut);
+            return image;
+        } catch (Exception e) {
 
         }
-        catch(Exception e) {
-            return file;
-        }
-        return file;
+        return image;
     }
 }
