@@ -26,6 +26,12 @@ public class image {
 
     public  String[] imginput = new String[10];
     public String[] base  = new String[10];
+    public String[] binarys = new String[10];
+    public String[] dec = new String[10];
+    public String[] color = new String[10];
+    public String[] hex = new String[10];
+    public BufferedImage[] gray = new BufferedImage[10];
+
     //might create arrays for the base64 and other outputs
 
     @GetMapping("/images")
@@ -69,25 +75,25 @@ public class image {
 
             //calls to calculate binary
             a = new binary();
-            String binarys = a.files(imginput[i]);
+            binarys[i] = a.files(imginput[i]);
 
             //calls to calculate decimal
             a = new decimal();
-            String dec = a.files(imginput[i]);
+            dec[i] = a.files(imginput[i]);
 
             //calls to calculate rgb
             a = new rgb();
-            String color = a.files(imginput[i]);
+            color[i] = a.files(imginput[i]);
 
             //calls to calculate hexadecimal
             a = new hexadecimal();
-            String hex = a.files(imginput[i]);
+            hex[i] = a.files(imginput[i]);
 
             //grayscale
             grayscale b = new grayscale();
             File pic = new File(imginput[i]);
             BufferedImage pic2 = ImageIO.read(pic);
-            BufferedImage gray = b.convert(pic2);
+            gray[i] = b.convert(pic2);
 
         }
 
