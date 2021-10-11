@@ -57,6 +57,8 @@ public class Grayscalecode {
 
 		//must put in try and catch block in case of exceptions, java can't handle it
 		try {
+
+			// Read in the image and then iterate through each pixel location
 			BufferedImage file=ImageIO.read(image);
 			int width=file.getWidth();
 			int height=file.getHeight();
@@ -64,19 +66,24 @@ public class Grayscalecode {
 
 				for(int j=0; j<width; j++) {
 
+					// RGB values weighted with multipliers to emphasize green more and blue less
 					Color c = new Color(file.getRGB(j, i));
 					int red = (int)(c.getRed() * 0.299);
 					int green = (int)(c.getGreen() * 0.587);
 					int blue = (int)(c.getBlue() *0.114);
+
+					// Value will be the same for each color value, making the image greyscale
 					Color newColor = new Color(red+green+blue,
 
 							red+green+blue,red+green+blue);
 
+					// Change color at pixel location to the specified greyscale color
 					file.setRGB(j,i,newColor.getRGB());
 				}
 			}
 			File ouptut = new File("grayscale.jpg");
 			ImageIO.write(file, "jpg", ouptut);
+
 			image(file);
 		}
 		catch(Exception e) {
