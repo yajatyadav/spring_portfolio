@@ -83,7 +83,8 @@
         </div>
 
         <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/Capture.PNG}" alt="menu" height="auto" width="100%">
+            <a id="lol"><img src="/static/images/yummy.jpg" th:src="@{/images/Capture.PNG}" alt="menu" height="auto" width="100%"></a>
+            <p id="lols"></p>
         </div>
 
         <div class="size">
@@ -153,6 +154,14 @@
             }
 
         </style>
+        <script>
+            document.getElementById("lol").onclick= function myFunction() {
+                document.getElementById("lols").innerHTML = "^this shit would lowkey scare me if it was the first thing i saw when I wake up";
+                setTimeout(function(){
+                    document.getElementById("lols").innerHTML = null ;
+                }, 3000);
+            }
+        </script>
     </div>
 </body>
 <!--
