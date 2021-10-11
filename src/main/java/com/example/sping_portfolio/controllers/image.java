@@ -4,23 +4,20 @@ package com.example.sping_portfolio.controllers;
  */
 
 
-import org.springframework.stereotype.Component;
+
 import  org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
+import java.util.Base64;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.stream.LongStream;
 import java.io.File;
+import java.util.Objects;
 import javax.imageio.ImageIO;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -50,46 +47,49 @@ public class image {
         //set up html output
         PrintWriter out = response.getWriter();
         String html = "";
-        String header = "";
+
 
         //check for button press
         String start = request.getParameter("go");
-    if(start=="Convert!"){
+    if(Objects.equals(start, "Convert!")){
 
         // loop to generate output values
-        for(int i=0; i<imginput.length;i++){
+        for (String s : imginput) {
 
             output a;
 
             //PLS NOTE THAT NONE IF THIS IS TESTED TO SEE IF IT WORKS OR NOT
+            //might output values to an array if that is needed
 
             //calls to calculate base64
             a = new base64();
-            String base = a.files(imginput[i]);
+            String base = a.files(s);
+
 
             //calls to calculate binary
             a = new binary();
-            String binarys = a.files(imginput[i]);
+            String binarys = a.files(s);
 
             //calls to calculate decimal
-            a=new decimal();
-            String dec = a.files(imginput[i]);
+            a = new decimal();
+            String dec = a.files(s);
 
             //calls to calculate rgb
-            a= new rgb();
-            String color = a.files(imginput[i]);
+            a = new rgb();
+            String color = a.files(s);
 
             //calls to calculate hexadecimal
             a = new hexadecimal();
-            String hex = a.files(imginput[i]);
+            String hex = a.files(s);
 
             //grayscale
             grayscale b = new grayscale();
-            File pic = new File(imginput[i]);
-            BufferedImage pic2=ImageIO.read(pic);
+            File pic = new File(s);
+            BufferedImage pic2 = ImageIO.read(pic);
             BufferedImage gray = b.convert(pic2);
 
         }
+
            return "images";
     }
 
@@ -103,6 +103,7 @@ public class image {
 
 }
 
+//polymorphism
 //outputs, don't know if polymorphism is best to accomplish this
 class output{
     public String files(String i) throws IOException{
@@ -113,13 +114,22 @@ class output{
 //img to base64
 class base64 extends output{
     public String files(String i){
+        File file = new File(i);
+        String encodedfile;
+        try (FileInputStream fileInputStreamReader = new FileInputStream(file)){
 
+         byte[] imageData = new byte[(int) file.length()];
+         fileInputStreamReader.read(imageData);
+         encodedfile = Base64.getEncoder().encodeToString(imageData);
 
+     }
 
-        return "0";
+     catch(Exception e) {
+         return "Image to base64 conversion has encountered an error";
+     }
+        return encodedfile;
     }
 }
-
 
 
 //img to rgb
@@ -176,7 +186,7 @@ class grayscale {
 
         }
         catch(Exception e) {
-
+            return file;
         }
         return file;
     }
