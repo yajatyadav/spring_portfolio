@@ -25,6 +25,7 @@ import javax.servlet.http.HttpServletResponse;
 public class image {
 
     public  String[] imginput = new String[10];
+    public String[] base  = new String[10];
     //might create arrays for the base64 and other outputs
 
     @GetMapping("/images")
@@ -54,7 +55,7 @@ public class image {
     if(Objects.equals(start, "Convert!")){
 
         // loop to generate output values
-        for (String s : imginput) {
+        for (int i=0; i<imginput.length;i++) {
 
             output a;
 
@@ -63,28 +64,28 @@ public class image {
 
             //calls to calculate base64
             a = new base64();
-            String base = a.files(s);
+            base[i] = a.files(imginput[i]);
 
 
             //calls to calculate binary
             a = new binary();
-            String binarys = a.files(s);
+            String binarys = a.files(imginput[i]);
 
             //calls to calculate decimal
             a = new decimal();
-            String dec = a.files(s);
+            String dec = a.files(imginput[i]);
 
             //calls to calculate rgb
             a = new rgb();
-            String color = a.files(s);
+            String color = a.files(imginput[i]);
 
             //calls to calculate hexadecimal
             a = new hexadecimal();
-            String hex = a.files(s);
+            String hex = a.files(imginput[i]);
 
             //grayscale
             grayscale b = new grayscale();
-            File pic = new File(s);
+            File pic = new File(imginput[i]);
             BufferedImage pic2 = ImageIO.read(pic);
             BufferedImage gray = b.convert(pic2);
 
@@ -135,6 +136,8 @@ class base64 extends output{
 //img to rgb
 class rgb extends output{
     public String files(String i){
+
+
         return "0";
     }
 }
