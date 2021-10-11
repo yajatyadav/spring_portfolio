@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.stream.LongStream;
@@ -60,6 +61,7 @@ public class image {
 
             output a;
 
+            //PLS NOTE THAT NONE IF THIS IS TESTED TO SEE IF IT WORKS OR NOT
 
             //calls to calculate base64
             a = new base64();
@@ -103,7 +105,7 @@ public class image {
 
 //outputs, don't know if polymorphism is best to accomplish this
 class output{
-    public String files(String i){
+    public String files(String i) throws IOException{
         return "0";
     }
 }
@@ -111,6 +113,9 @@ class output{
 //img to base64
 class base64 extends output{
     public String files(String i){
+
+
+
         return "0";
     }
 }
