@@ -75,14 +75,16 @@
         </form>
     </div>
 
-    <div id="header">
-        <p>Grayscale</p>
-        <p>binary</p>
-        <p>decimal</p>
-        <p>rgb</p>
-        <p>hex</p>
-        <p>base64</p>
-    </div>
+    <table id="header">
+        <tr>
+            <th class="special">Grayscale</th>
+            <th>hex</th>
+            <th>decimal</th>
+            <th>rgb</th>
+            <th>base64</th>
+            <th>binary</th>
+        </tr>
+    </table>
 
 
         <div class="size" > <!--restrict to left side-->
@@ -132,12 +134,22 @@
 
 
         <style>
+            th.special{
+                width:auto;
+            }
+            th{
+                text-align:center;
+                width:15%;
+                border: solid 3px black
+            }
             #header{
-                right:0;
-                width:80%;
-                display:flex;
+                top:10px;
+                border:none;
+                width:100%;
                 position:relative;
-                justify-content: space-between;
+                height:40px;
+                left:20%;
+
             }
             .size{
                 position:relative;
@@ -169,9 +181,6 @@
 
         </style>
         <script>
-            document.getElementById("convert").onclick = function header(){
-
-            }
             document.getElementById("lol").onclick= function myFunction() {
                 document.getElementById("lols").innerHTML = "^this shit would lowkey scare me if it was the first thing i saw when I wake up";
                 setTimeout(function(){

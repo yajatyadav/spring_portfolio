@@ -121,8 +121,11 @@ class output{
 //img to base64
 class base64 extends output{
     public String files(String i){
+        //converts image to file var
         File file = new File(i);
         String encodedfile;
+
+        //exception handler
         try (FileInputStream fileInputStreamReader = new FileInputStream(file)){
 
          byte[] imageData = new byte[(int) file.length()];
