@@ -24,7 +24,7 @@ import javax.servlet.http.HttpServletResponse;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class image {
 
-    public  String[] imginput = new String[10];
+    public String[] imginput = new String[10];
     public String[] base  = new String[10];
     public String[] binarys = new String[10];
     public String[] dec = new String[10];
@@ -173,10 +173,15 @@ class rgb extends output {
 
 //img to hex
 class hexadecimal extends output{
-    public String files(String i){
-        return "0";
+public String componentToHex(int c) {
+        String hex = Integer.toHexString(c);
+        return hex.length() == 1 ? "0" + hex : hex;
     }
-}
+
+public String rgbToHex(int r, int g, int b) {
+        return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+    }
+        }
 
 //img to binary
 class binary extends output{
@@ -188,9 +193,7 @@ class binary extends output{
 
 //img to decimal
 class decimal extends output{
-    public String files(String i){
-        return "0";
-    }
+    public String files(String i) {return "0"; }
 }
 
 //calculate grayscale
