@@ -169,39 +169,11 @@ unsure about anything for layout, nobody collaborating :(
 
 </div>
 
-<script>
-    var slideIndex1 = 1;
-    showSlides1(slideIndex1);
 
-    function plusSlides1(x) {
-        showSlides1(slideIndex1 += x);
-    }
-
-    function currentSlide1(x) {
-        showSlides1(slideIndex1 = x);
-    }
-
-    function showSlides1(x) {
-        var i;
-        var slides1 = document.getElementsByClassName("quote");
-        var dots1 = document.getElementsByClassName("dot");
-        if (x > slides1.length) {slideIndex1 = 1}
-        if (x < 1) {slideIndex1 = slides1.length}
-        for (i = 0; i < slides1.length; i++) {
-            slides1[i].style.display = "none";
-        }
-        for (i = 0; i < dots1.length; i++) {
-            dots1[i].className = dots1[i].className.replace(" active", "");
-        }
-        slides1[slideIndex1-1].style.display = "block";
-        dots1[slideIndex1-1].className += " active";
-    }
-
-</script>
 <div class="info">
         <p>Developers:</p>
         <p>Harry</p>
-        <p>Flora</p>
+        <button id="spec">Flora</button>
         <p>Yajat</p>
         <p>Devam</p>
         <p>Kyle</p>
@@ -210,7 +182,38 @@ unsure about anything for layout, nobody collaborating :(
          <p> 858-265-8579</p>
         <p> flora.yuan18@gmail.com</p>
 </div>
+    <script>
+    var slideIndex1 = 1;
+    showSlides1(slideIndex1);
 
+    function plusSlides1(x) {
+    showSlides1(slideIndex1 += x);
+    }
+
+    function currentSlide1(x) {
+    showSlides1(slideIndex1 = x);
+    }
+
+    function showSlides1(x) {
+    var i;
+    var slides1 = document.getElementsByClassName("quote");
+    var dots1 = document.getElementsByClassName("dot");
+    if (x > slides1.length) {slideIndex1 = 1}
+    if (x < 1) {slideIndex1 = slides1.length}
+    for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";
+    }
+    for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active", "");
+    }
+    slides1[slideIndex1-1].style.display = "block";
+    dots1[slideIndex1-1].className += " active";
+    }
+    document.getElementById("spec").onclick= function show1(){
+        alert("hi");
+    }
+
+    </script>
 </div>
 </body>
 
@@ -245,6 +248,15 @@ unsure about anything for layout, nobody collaborating :(
     .dimensions{
         max-width:100%;
         max-height:100%;
+    }
+    #spec{
+        background: none;
+        border: none;
+        padding: 0;
+        font-family: Verdana, sans-serif;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
     }
     #position9{
         top:750px;
