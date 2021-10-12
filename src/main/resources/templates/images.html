@@ -11,6 +11,25 @@
 
 <body>
     <div layout:fragment="content" th:remove="tag" style="height:100%;">
+
+        <tr th:each="image : ${image_list}">
+            <td>
+                <img th:src="${image}" height="500" width="500">
+            </td>
+
+        </tr>
+
+                <tr th:each = "gray_image : ${gray_image_list}">
+            <td>
+                <img th:src = "@{${gray_image}}" height = "500" width = "500">
+            </td>
+
+        </tr>
+
+<!--        th:src="@{/images/harryunfortunately.png}-->
+<!--        <img src="/static/images/yummy.jpg" th:src="@{/images/harryunfortunately.png}" alt="menu" height="auto" width="100%">-->
+
+
     <!--
     <div class="container">
         <h1 class="text-center">RGB values within an Image</h1>
@@ -68,12 +87,32 @@
     </div>
 </div>
 -->
-        <h1 class="text-center">Grayscale an Image</h1>
-        <div id="size1">
-        <form name="grayscale" method="GET" id="conversion" class="center">
+<!--        <h1 class="text-center">Grayscale an Image</h1>-->
+<!--        <div id="size1">-->
+        <form name="grayscale" action = "/images" method="GET" id="conversion" class="center">
             <input type="submit" id="convert" name="go" value="Convert!">
         </form>
-    </div>
+<!--    </div>-->
+
+
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th><img src="/static/images/yummy.jpg" th:src="@{/images/harryunfortunately.png}" alt="menu" height="auto" width="100%">-->
+<!--            </th>-->
+<!--            <th> new image</th>-->
+<!--        </tr>-->
+
+<!--        <tr>-->
+<!--            <th><img src="/static/images/yummy.jpg" th:src="@{/images/harryunfortunately.png}" alt="menu" height="auto" width="100%">-->
+<!--            </th>-->
+<!--            <th> new image</th>-->
+<!--        </tr>-->
+
+<!--        <tr>-->
+<!--            <th><img src="/static/images/yummy.jpg" th:src="@{/images/harryunfortunately.png}" alt="menu" height="auto" width="100%">-->
+<!--            </th>-->
+<!--            <th> new image</th>-->
+<!--        </tr>-->
 
     <table id="header">
         <tr>
@@ -86,51 +125,61 @@
         </tr>
     </table>
 
+<!--        <tr>-->
+<!--            <th><img src="/static/images/yummy.jpg" th:src="@{/images/harryunfortunately.png}" alt="menu" height="auto" width="100%">-->
+<!--            </th>-->
+<!--            <th> new image</th>-->
+<!--        </tr>-->
 
-        <div class="size" > <!--restrict to left side-->
-            <img src="/static/images/yummy.jpg" th:src="@{/images/harryunfortunately.png}" alt="menu" height="auto" width="100%">
-        </div>
+<!--    </table>-->
 
-        <div class="size">
-            <a id="lol"><img src="/static/images/yummy.jpg" th:src="@{/images/Capture.PNG}" alt="menu" height="auto" width="100%"></a>
-            <p id="lols"></p>
-        </div>
+<!--        <div class="size" > &lt;!&ndash;restrict to left side&ndash;&gt;-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/harryunfortunately.png}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/donuts.jpg}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <a id="lol"><img src="/static/images/yummy.jpg" th:src="@{/images/Capture.PNG}" alt="menu" height="auto" width="100%"></a>-->
+<!--            <p id="lols"></p>-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/milk.jpeg}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/donuts.jpg}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/Mona_Lisa.png}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/milk.jpeg}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/mountain.jpg}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/Mona_Lisa.png}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/yummy.jpg}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/mountain.jpg}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/cursed-meme.jpg}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/yummy.jpg}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/boku.jpg}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/cursed-meme.jpg}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/noo.jpg}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/boku.jpg}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
 
-        <div class="size">
-            <img src="/static/images/yummy.jpg" th:src="@{/images/unnamed.jpg}" alt="menu" height="auto" width="100%">
-        </div>
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/noo.jpg}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
+
+<!--        <div class="size">-->
+<!--            <img src="/static/images/yummy.jpg" th:src="@{/images/unnamed.jpg}" alt="menu" height="auto" width="100%">-->
+<!--        </div>-->
+<!--        <div>-->
+
+<!--        </div>-->
 
 
         <style>

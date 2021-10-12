@@ -1,12 +1,14 @@
-package com.example.sping_portfolio.controllers;
-import java.io.File;
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.awt.*;
-import java.io.IOException;
-
-//Code to grayscale an image
-public class Grayscalecode {
+//package com.example.sping_portfolio.controllers;
+//
+//import javax.imageio.ImageIO;
+//import javax.swing.*;
+//import java.awt.*;
+//import java.awt.image.BufferedImage;
+//import java.io.File;
+//import java.io.IOException;
+//
+////Code to grayscale an image
+//public class Grayscalecode2 {
 //	public static void main(String[]args) throws IOException{
 //
 //		boolean userinput =false;
@@ -47,47 +49,46 @@ public class Grayscalecode {
 //		}
 //
 //	}
-
-	//grayscaling image
-	public static String Grayscale(String path) throws IOException {
-
-		//must put in try and catch block in case of exceptions, java can't handle it
-
-		File image = new File(path);
-
-		BufferedImage file = ImageIO.read(image);
-
-
-		int width = file.getWidth();
-		int height = file.getHeight();
-		for (int i = 0; i < height; i++) {
-
-			for (int j = 0; j < width; j++) {
-
-				Color c = new Color(file.getRGB(j, i));
-				int red = (int) (c.getRed() * 0.299);
-				int green = (int) (c.getGreen() * 0.587);
-				int blue = (int) (c.getBlue() * 0.114);
-				Color newColor = new Color(red + green + blue,
-
-						red + green + blue, red + green + blue);
-
-				file.setRGB(j, i, newColor.getRGB());
-			}
-		}
-
-
-		File output = new File("grayscale.jpg");
-		ImageIO.write(file, "jpg", output);
-//		image(file);
-
-		return output.getAbsoluteFile().getPath();
-
-	}
-
-
-
-	//output image
+//
+//	//grayscaling image
+//	public static void Grayscale(File image) {
+//
+//		//must put in try and catch block in case of exceptions, java can't handle it
+//		try {
+//			BufferedImage file=ImageIO.read(image);
+//			int width=file.getWidth();
+//			int height=file.getHeight();
+//			for(int i=0; i<height; i++) {
+//
+//				for(int j=0; j<width; j++) {
+//
+//					Color c = new Color(file.getRGB(j, i));
+//					int red = (int)(c.getRed() * 0.299);
+//					int green = (int)(c.getGreen() * 0.587);
+//					int blue = (int)(c.getBlue() *0.114);
+//					Color newColor = new Color(red+green+blue,
+//
+//							red+green+blue,red+green+blue);
+//
+//					file.setRGB(j,i,newColor.getRGB());
+//				}
+//			}
+//			File ouptut = new File("grayscale.jpg");
+//			ImageIO.write(file, "jpg", ouptut);
+//			image(file);
+//
+//			return ouptut.getAbsoluteFile();
+//
+//
+//
+//		}
+//		catch(Exception e) {
+//
+//		}
+//
+//
+//	}
+//	//output image
 //	public static void image(BufferedImage file) {
 //		JFrame frame = new JFrame();
 //		Image dimg=file.getScaledInstance(file.getWidth(), file.getHeight(),
@@ -102,5 +103,5 @@ public class Grayscalecode {
 //		frame.setVisible(true);
 //
 //	}
-
-}
+//
+//}
