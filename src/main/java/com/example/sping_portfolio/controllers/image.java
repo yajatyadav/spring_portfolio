@@ -185,9 +185,14 @@ class hexadecimal extends output{
 
 //img to binary
 class binary extends output{
-    public String files(String i){
+    public String componentToBinary(int c) {
+        String binary = Integer.toBinaryString(c);
+        int topad = 8-binary.length();
+        return "0".repeat(topad) + binary;
+    }
 
-        return "0";
+    public String rgbToBinary(int r, int g, int b) {
+        return 'b' + componentToBinary(r) + componentToBinary(g) + componentToBinary(b);
     }
 }
 
