@@ -2,6 +2,9 @@
 <!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <!-- Start of head content specific to page -->
@@ -92,6 +95,9 @@
         <form name="grayscale" action = "/images" method="GET" id="conversion" class="center">
             <input type="submit" id="convert" name="go" value="Convert!">
         </form>
+        <div align="center">
+            <button type="button" name="grayscale" id="grayscale" class="btn btn-info">Grayscale</button>
+        </div>
 <!--    </div>-->
 
 
