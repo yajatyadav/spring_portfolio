@@ -14,7 +14,7 @@ Harry Li | wiz124 | [Issues](https://github.com/yajatyadav/spring_portfolio/proj
 Pair Share  |  Link
 -------------    | -------------- | 
 Yajat + Kyle | [Journal](https://docs.google.com/document/d/1Gc-86BvTlot4jyVBa4iQE2sjUcaYF_pDU6r2joCvn34/edit)
-Flora + Devam + Harry | [Journal](link)
+Flora + Devam + Harry | [Journal](https://docs.google.com/document/d/1j2SUFoxa5XTKc_XzALJ9SQDAT810OrmKYq4Sr1oO0-s/edit)
 
 ## Completed Issues 9/28 - 10/1
 Issue Name             | Link | 
