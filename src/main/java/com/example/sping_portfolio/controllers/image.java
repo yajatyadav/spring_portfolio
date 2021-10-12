@@ -4,7 +4,7 @@ package com.example.sping_portfolio.controllers;
  */
 
 
-
+import java.io.ByteArrayOutputStream;
 import  org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,13 +30,12 @@ public class image {
     public String[] dec = new String[10];
     public String[] color = new String[10];
     public String[] hex = new String[10];
-    public BufferedImage[] gray = new BufferedImage[10];
 
     //might create arrays for the base64 and other outputs
 
     @GetMapping("/images")
     public String Images(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model, HttpServletRequest request,
-    HttpServletResponse response) throws IOException{
+                         HttpServletResponse response) throws IOException{
         model.addAttribute("name", name);
 
         //setup array list, list each img file in array
@@ -89,9 +88,8 @@ public class image {
             a = new hexadecimal();
             hex[i] = a.files(imginput[i]);
 
-            //grayscale
-            grayscale b = new grayscale();
-            gray[i] = grayscale.convert(imginput[i]);
+           //grayscale is handled by yajat
+
 
 
 
@@ -143,11 +141,33 @@ class base64 extends output{
 
 
 //img to rgb
-class rgb extends output{
-    public String files(String i){
+class rgb extends output {
+    public String files(String i) throws IOException{
+            int red = 0;
+            int blue=0;
+            int green=0;
 
+            File file=new File(i);
+            BufferedImage img= ImageIO.read(file);
 
-        return "0";
+            for (int y = 0; y < img.getHeight(); y++) {
+                for (int x = 0; x < img.getWidth(); x++) {
+
+                    //Retrieving contents of a pixel
+                    int pixel = img.getRGB(x,y);
+
+                    //Creating a Color object from pixel value
+                    Color color = new Color(pixel, true);
+
+                    //Retrieving the R G B values
+                     red = color.getRed();
+                     green = color.getGreen();
+                     blue = color.getBlue();
+                }
+            }
+            String values =Integer.toString(red) + green + blue;
+
+            return values;
     }
 }
 
@@ -161,6 +181,7 @@ class hexadecimal extends output{
 //img to binary
 class binary extends output{
     public String files(String i){
+
         return "0";
     }
 }
@@ -173,7 +194,8 @@ class decimal extends output{
 }
 
 //calculate grayscale
-class grayscale {
+//class grayscale
+    /*
     public static BufferedImage convert(String f) {
         File file = new File(f);
         BufferedImage image = null;
@@ -205,3 +227,4 @@ class grayscale {
         return image;
     }
 }
+*/
