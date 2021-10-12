@@ -9,6 +9,13 @@ Yajat Yadav | yajatyadav | [Issues](https://github.com/yajatyadav/spring_portfol
 Flora Yuan | florayuan18 | [Issues](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Aflorayuan18) | [Issues](https://github.com/yajatyadav/spring_portfolio/issues/assigned/florayuan18) -- [Commit Page](https://github.com/yajatyadav/spring_portfolio/commits?author=florayuan18) | [Profile](https://github.com/florayuan18) |
 Harry Li | wiz124 | [Issues](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Awiz124) | [Scrum Board](https://github.com/yajatyadav/spring_portfolio/projects/1?card_filter_query=assignee%3Awiz124) | [Issues](https://github.com/yajatyadav/spring_portfolio/issues/assigned/wiz124) -- [Commit Page](https://github.com/yajatyadav/spring_portfolio/commits?author=wiz124) | [Profile](https://github.com/wiz124) |
 
+## Modeling Checkpoint + Unit 7
+### [Team Video](https://drive.google.com/file/d/1AGgbAhDmbF9_e15GR-5vDqg12HO3X3VS/view?usp=sharing)
+Pair Share  |  Link
+-------------    | -------------- | 
+Yajat + Kyle | [Journal](https://docs.google.com/document/d/1Gc-86BvTlot4jyVBa4iQE2sjUcaYF_pDU6r2joCvn34/edit)
+Flora + Devam + Harry | [Journal](link)
+
 ## Completed Issues 9/28 - 10/1
 Issue Name             | Link | 
 -------------    | -------------- | 
