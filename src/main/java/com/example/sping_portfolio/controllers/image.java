@@ -173,12 +173,12 @@ class rgb extends output {
 
 //img to hex
 class hexadecimal extends output{
-public String componentToHex(int c) {
+    public String componentToHex(int c) {
         String hex = Integer.toHexString(c);
         return hex.length() == 1 ? "0" + hex : hex;
     }
 
-public String rgbToHex(int r, int g, int b) {
+    public String rgbToHex(int r, int g, int b) {
         return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
     }
         }
