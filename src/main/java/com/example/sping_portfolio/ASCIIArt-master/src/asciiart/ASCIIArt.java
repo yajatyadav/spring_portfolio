@@ -12,6 +12,7 @@ public class ASCIIArt {
      * @param c A java.awt.Color object
      * @return A value between 0 and 1 representing grayscale
      */
+
     public static double getBrightness(Color c) {
         return 0.3*(c.getRed()/255.0) + 0.59*(c.getGreen()/255.0) + 0.11*(c.getBlue()/255.0);
     }
