@@ -325,7 +325,7 @@ class binary extends output{
 
 //img to decimal
 class decimal extends output{
-    public String files(String i) {return "0"; }
+    public String files(String i) { return "0"; }
 }
 
 //calculate grayscale
