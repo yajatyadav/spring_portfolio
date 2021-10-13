@@ -1,9 +1,9 @@
 //package com.example.sping_portfolio.controllers;
-//
+
 //import org.springframework.stereotype.Controller;
 //import org.springframework.ui.Model;
 //import org.springframework.web.bind.annotation.GetMapping;
-//
+
 //import javax.imageio.ImageIO;
 //import javax.swing.*;
 //import java.awt.*;
@@ -12,27 +12,27 @@
 //import java.io.IOException;
 //import java.util.ArrayList;
 //import java.util.List;
-//
-//
-//
+
+
+
 //@Controller
 //public class Grayscale_controller {
-//
-//
+
+
 //    public static BufferedImage Grayscale(String path) throws IOException {
-//
-//
+
+
 //        File image = new File(path);
-//
+
 //        BufferedImage file = ImageIO.read(image);
-//
-//
+
+
 //        int width = file.getWidth();
 //        int height = file.getHeight();
 //        for (int i = 0; i < height; i++) {
-//
+
 //            for (int j = 0; j < width; j++) {
-//
+
 //                Color c = new Color(file.getRGB(j, i));
 //                int red = (int) (c.getRed() * 0.299);
 //                int green = (int) (c.getGreen() * 0.587);
