@@ -65,9 +65,9 @@ public class Grayscalecode {
 			for (int j = 0; j < width; j++) {
 
 				Color c = new Color(file.getRGB(j, i));
-				int red = (int) (c.getRed() * 0.299);
-				int green = (int) (c.getGreen() * 0.587);
-				int blue = (int) (c.getBlue() * 0.114);
+				int red = (int) (c.getRed() * 0.3);
+				int green = (int) (c.getGreen() * 0.59);
+				int blue = (int) (c.getBlue() * 0.11);
 				Color newColor = new Color(red + green + blue,
 
 						red + green + blue, red + green + blue);
