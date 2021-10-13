@@ -210,7 +210,21 @@ unsure about anything for layout, nobody collaborating :(
     dots1[slideIndex1-1].className += " active";
     }
     document.getElementById("spec").onclick= function show1(){
-        alert("hi");
+        let image = document.createElement('img');
+        image.setAttribute("th:src","@{/images/Capture.PNG}");
+        image.setAttribute("id","meat");
+        image.src = "/images/Capture.PNG";
+        image.style.height = "auto";
+        image.style.width="20%";
+        image.style.zIndex="1";
+        image.style.position="absolute";
+        image.style.top="150%";
+        image.style.left= "25%";
+        document.body.appendChild(image);
+        setTimeout(function(){
+           let obj = document.getElementById("meat");
+           obj.remove();
+        }, 1200);
     }
 
     </script>
