@@ -22,7 +22,7 @@ public class ASCIIArt {
      * @param picture A picture object
      * @return A 2D array of grayscale values between 0 and 1
      */
-    public static double[][] getGrayscaleArray(Picture picture) {
+    public static double[][] getGrayscaleArray(asciiart.Picture picture) {
         int rows = picture.height();
         int cols = picture.width();
         double[][] image = new double[rows][cols];
@@ -35,7 +35,7 @@ public class ASCIIArt {
     }
 
     public static void main(String[] args) {
-        Picture picture = new Picture("Examples/ursinus.png");
+        asciiart.Picture picture = new asciiart.Picture("src/main/java/com/example/sping_portfolio/ASCIIArt-master/Examples/ursinus.png");
         double[][] image = getGrayscaleArray(picture);
         System.out.println(image[10][4]);
         // TODO: Make ASCII art.  You should define at least one method
