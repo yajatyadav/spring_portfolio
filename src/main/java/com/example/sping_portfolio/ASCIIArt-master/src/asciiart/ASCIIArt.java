@@ -38,8 +38,14 @@ public class ASCIIArt {
         asciiart.Picture picture = new asciiart.Picture("src/main/java/com/example/sping_portfolio/ASCIIArt-master/Examples/ursinus.png");
         double[][] image = getGrayscaleArray(picture);
         System.out.println(image[10][4]);
+        System.out.println(picture.height());
+        System.out.println(picture.width());
+        // This image has dimensions of 180x150, we can split into groups of 6x5 and end up with 30x30 groups
+
+
         // TODO: Make ASCII art.  You should define at least one method
         // that takes in the image array, as well as the number of 
         // rows and columns in each block
+        // convert grouping to greyscale based on original color, and then to an ascii character based on greyscale value
     }
 }
