@@ -43,6 +43,7 @@ public class ASCIIArt {
         // This image has dimensions of 180x150, we can split into groups of 6x5 and end up with 30x30 groups
 
 
+
         // TODO: Make ASCII art.  You should define at least one method
         // that takes in the image array, as well as the number of 
         // rows and columns in each block
